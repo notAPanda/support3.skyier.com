@@ -11,13 +11,6 @@ hero:
       text: Pakiety
       link: /docs/bundle
     - theme: brand
-      text: Pakiety
-      link: /docs/bundle
-
-    - theme: brand
-      text: Pakiety
-      link: /docs/bundle
-    - theme: brand
       text: Społeczność
       link: /docs/community
     - theme: brand
