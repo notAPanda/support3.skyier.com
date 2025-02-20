@@ -46,7 +46,6 @@ date: 2022-10-01
 * **Copyright** - nazwa ta będzie widoczna w dolnej nawigacji. Jeśli zostawisz to pole puste to pojawi się Nazwa strony, podana w pierwszym polu. W poniższym przykładzie nazwa wpisana w Copyright to Skyier.
 * **Copyright url** - link strony, do której ma przekierowywać nazwa podana w Copyright.
 
-![screen-nawigacja-dolna](./images/screen-nawigacja-dolna.jpg)
 
 <br>
 
@@ -62,8 +61,6 @@ date: 2022-10-01
 
 * **Wyświetlaj wiadomość powitalna dla osób, które użyły płatności jednorazowych** - zaznacz, jeśli chcesz wyświetlać wiadomość dla studentów, którzy kupili kurs za pomocą płatności jednorazowych albo po prostu zarejestrowali się do platformy w celu zapoznania się z Twoimi kursami darmowymi (jeśli takie posiadasz). Wiadomość będzie widoczna od razu po zalogowaniu do platformy.
 
-![wiadomosc-powitalna-kurs](./images/wiadomosc-powitalna-kurs.png)
-
 * **Wiadomość powitalna dla subskrybentów** - zaznacz, jeśli chcesz wyświetlać wiadomość dla studentów, którzy dołączyli do Twojej platformy subskrypcyjnej. Wiadomość będzie widoczna od razu po zalogowaniu do platformy. I będzie wyglądała analogicznie do przykładu zamieszczonego powyżej. 
 
 * **Manualne wystawianie faktur** - zaznacz, jeśli chcesz, aby faktura nie została automatycznie wysłana po zakupie kursu. Wówczas, aby wystawić fakturę trzeba wejść w SPRZEDAŻ i przy danej transkacji kliknąć przycisk *attempt*. Wystawienie faktur zadziała tylko w momencie, kiedy jest zrobiona integracja z systemem do fakturowania (InFakt, Fakturownia, iFirma, Taxe, Taxxo).
@@ -72,25 +69,22 @@ date: 2022-10-01
 
 * **Pole do wpisania kodu rabatowego** - zaznacz, jeśli chcesz, aby na stronie płatności pojawiło się pole do wpisania kodu promocyjnego dla użytkowników. Pole to pojawi się nad przyciskiem Kup teraz.
 
-![screen-kod-rabatowy](./images/screen-kod-rabatowy.jpg)
-
 * **Zewnętrzne strony sprzedażowe** - zaznacz, jeśli chcesz stworzyć stronę sprzedażową na WordPressie albo w innym narzędziu. Wówczas platforma będzie wykorzystywana wyłącznie jako panel do nauki i obsługi transkacji. Trzeba pamiętać, aby na swojej stronie sprzedażowej wstawić link przekierowujący na strony zakupowej (checkoutu) Skyier.
 
 * **Dodatkowe linki w nawigacji** - zaznacz, jeśli chcesz dodać linki w górnej nawigacji.
 
-![screen-linki](./images/screen-linki.png)
 
 * **Informacja na temat braku możliwości dokonania zwrotu** - informacja pokaże się na stronie dokonywania zakupu (checkoucie), nad przyciskiem KUP TERAZ i będzie miała formę: Klikając poniższy przycisk oświadczam, że chcę natychmiastowego rozpoczęcia świadczenia Usługi i rozumiem, że nie będę mieć możliwości odstąpienia od umowy przed upływem 14 dni.
 
-![screen-klauzula](./images/screen-klauzula.jpg)
 
-* **Checkboxy na stronie zakupowej** - zaznacz, jeśli chcesz na stronie dokonywania zakupu (checkout) wstawić swoje checkboxy. Możesz dodać ich nieograniczoną ilość, ale wszystkie będą wymagane. W momencie dodania swoich formułek, nasza standardowa nie będzie wyświetlana. 
+* **Wymagane checkboxy** - zaznacz, jeśli chcesz na stronie dokonywania zakupu (checkout) wstawić swoją treść zgody. Możesz dodać ich wiele checkboxów. Wszystkie będą wymagane do zaznaczenia przez użytkownika. W tym polu działa edytor typu [markdown](https://support.skyier.com/docs/consultation.html#jak-dzia%C5%82a-markdown).
 
-![screen-formulka-1](./images/screen-formulka-1.png)
+
+* **Opcjonalny checkbox zgody marketingowej** - zaznacz, jeśli chcesz na stronie dokonywania zakupu (checkout) zbierać zapisy na newsletter. Możesz wstawić swoją treść zgody lub skorzystać z naszej wstawionej domyślnie. W tym polu działa edytor typu [markdown](https://support.skyier.com/docs/consultation.html#jak-dzia%C5%82a-markdown). W momencie zaznaczenia przez użytkownika tego checkboxu, wysyłany jest do systemu mailingowego tag: marketing_consent. Więcej o tym tagu przeczytasz [tutaj](https://support.skyier.com/docs/integrations-email.html#tagi). 
+
 
 * **Opcjonalny numer telefonu** - zaznacz, jeśli chcesz, aby w formularzu do zbierania danych osobowych (na stronie dokonywania zakupu) pojawiło się dodatkowo pole do wpisania numeru telefonu. Pole to nie jest obowiązkowe.
 
-![screen-telefon](./images/screen-telefon.jpg)
 
 * **Uproszczona strona zakupowa** - zazacz, jeśli nie chcesz zbierać danych do wystawiania faktur lub rachunków. Wówczas na stronie zakupowej (checkout) będzie widoczny wyłącznie formularz rejestracyjny. 
 
@@ -126,6 +120,5 @@ Tutaj wklej kod śledzący. Rekmendowany jest Google Tag Manager. Ale można ró
 * **Favicon** - ikonka, która pojawi się w polu adresowym przeglądarki internetowej czy na karcie w przeglądarce internetowej. W przypadku braku favicony pojawi się favicona Skyier. 
 * **Logo** - logo pojawi się w lewym górnym rogu na stronie głównej platformy oraz w panelu do nauki. 
 
-![logo-panel-do-nauki](./images/logo-panel-do-nauki.png)
 
 * **Facebook OG Image** - zdjęcie, które się pojawi w momencie udostępniaania strony głównej platformy na Facebook'u.
