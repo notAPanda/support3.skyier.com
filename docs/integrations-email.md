@@ -138,3 +138,5 @@ Przykład: id47_progress
 
 Dzięki temu potrafimy wyfiltrować aktywnych subskrybentów.
 
+- **marketing_consent** - definiuje czy użytkownik wyraził zgodę na otrzymywanie wiadomości typu newsletter czy nie. Wartość 1 oznacza, że użytkownik zaznaczył przy dokonywaniu zakupu ten checkbox i chce otrzymywać wiadomości. Wartość 0 oznacza, że nie zaznaczył przy dokonywaniu zakupu tego checkboxu i nie chce otrzymywać wiadomości.
+

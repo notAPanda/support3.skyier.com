@@ -77,10 +77,10 @@ date: 2022-10-01
 * **Informacja na temat braku możliwości dokonania zwrotu** - informacja pokaże się na stronie dokonywania zakupu (checkoucie), nad przyciskiem KUP TERAZ i będzie miała formę: Klikając poniższy przycisk oświadczam, że chcę natychmiastowego rozpoczęcia świadczenia Usługi i rozumiem, że nie będę mieć możliwości odstąpienia od umowy przed upływem 14 dni.
 
 
-* **Wymagane checkboxy** - zaznacz, jeśli chcesz na stronie dokonywania zakupu (checkout) wstawić swoją treść zgody. Możesz dodać ich wiele checkboxów. Wszystkie będą wymagane do zaznaczenia przez użytkownika. W tym polu działa edytor typu [markdown](https://support.skyier.com/docs/consultation.html#jak-dzia%C5%82a-markdown).
+* **Wymagane checkboxy** - zaznacz, jeśli chcesz na stronie dokonywania zakupu (checkout) wstawić swoją treść zgody. Możesz dodać wiele checkboxów. Wszystkie będą wymagane do zaznaczenia przez użytkownika. W tym polu działa edytor typu [markdown](https://support.skyier.com/docs/consultation.html#jak-dzia%C5%82a-markdown).
 
 
-* **Opcjonalny checkbox zgody marketingowej** - zaznacz, jeśli chcesz na stronie dokonywania zakupu (checkout) zbierać zapisy na newsletter. Możesz wstawić swoją treść zgody lub skorzystać z naszej wstawionej domyślnie. W tym polu działa edytor typu [markdown](https://support.skyier.com/docs/consultation.html#jak-dzia%C5%82a-markdown). W momencie zaznaczenia przez użytkownika tego checkboxu, wysyłany jest do systemu mailingowego tag: marketing_consent. Więcej o tym tagu przeczytasz [tutaj](https://support.skyier.com/docs/integrations-email.html#tagi). 
+* **Opcjonalny checkbox zgody marketingowej** - zaznacz, jeśli chcesz na stronie dokonywania zakupu (checkout) zbierać zapisy na newsletter. Możesz wstawić swoją treść zgody. W tym polu działa edytor typu [markdown](https://support.skyier.com/docs/consultation.html#jak-dzia%C5%82a-markdown). W momencie zaznaczenia przez użytkownika tego checkboxu, wysyłany jest do systemu mailingowego tag: marketing_consent. Więcej o tym tagu przeczytasz [tutaj](https://support.skyier.com/docs/integrations-email.html#tagi). 
 
 
 * **Opcjonalny numer telefonu** - zaznacz, jeśli chcesz, aby w formularzu do zbierania danych osobowych (na stronie dokonywania zakupu) pojawiło się dodatkowo pole do wpisania numeru telefonu. Pole to nie jest obowiązkowe.
