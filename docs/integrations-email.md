@@ -6,29 +6,6 @@ date: 2022-10-01
 
 # Integracje z narzędziami do e-mail marketingu
 
-## Freshmail
-
-**Gdzie znaleźć Api key i Api secret?**
-
-1. Wybierz Ustawienia
-
-2. W menu po lewej stronie przejdź do: API&SMTP, Wtyczki
-
-3. Wybierz API&SMTP
-
-4. W sekcji Twoje klucze API znajdziesz Api key i Api secret
-
-5. Ustaw status subskrybenta:
-
-1 - **Aktywny** - subskrybent pojawi się od razu na Twojej liście mailingowej. Nie będzie musiał potwierdzać, że chce otrzymywać maile (single opt-in).<br>
-2 - **Do aktywacji** - subskrybent zanim pojawi się na Twojej liście mailingowej będzie musiał potwierdzić dodatkowo, że chce otrzymywać maile (double opt-in).
-
-![screen-freshmail-api](./images/screen-freshmail-api.jpg)
-
-Po dokonaniu integracji, automatycznie we Freshmail'u pojawi się lista o nazwie Skyier, w której będą pojawiać się e-maile studentów.
-
-<br>
-
 ## Mailchimp
 
 **Gdzie znaleźć Api key i Audience id?**
