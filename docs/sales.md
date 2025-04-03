@@ -29,32 +29,36 @@ Kliknij w przycisk **Dodaj**. Pojawi się krótki formularz do wypełnienia.
 ![screen-ustawienie-kodu](./images/screen-ustawienie-kodu.png)
 
 Podaj:
-* **tytuł** - ta nazwa nie będzie widoczna dla studentów. Podana nazwa powinna służyć rozpoznaniu, w jakim celu kod został stworzony.
-* **kod** - nazwa, jaką użytkownicy będą musieli wpisać, aby rabat został naliczony. Kod musi posiadać unikalną nazwę. Dana nazwa kodu nie może zostać użyta przy 2 różnych kodach rabatowych. 
-* **data ważności** - ustawiamy do kiedy ważny jest kod. Po upływie ustawionej daty kod będzie nieważny. Jeśli nie ustawimy daty kod będzie ważny w trybie ciągłym. Ustawienie daty końcowej na 21 marca oznacza, że kod będzie aktywny jeszcze w dniu 21 marca do godziny 23.59. 
-* **rodzaj** - wybieramy rabat procentowy lub kwotowy. 
+* **tytuł** - ta nazwa nie będzie widoczna dla studentów. Podana nazwa powinna pomóc Ci rozpoznać, w jakim celu kod został stworzony.
+* **kod** - nazwa, jaką użytkownik będzie musiał wpisać w wyznaczone pole na stronie zakupowej, aby rabat został naliczony. Kod musi posiadać unikalną nazwę. 
+* **data ważności** - definiuje czas trwania kodu. Po upływie ustawionej daty kod traci na ważności. Jeśli nie ustawimy daty ważności, kod będzie ważny przez cały czas. Ustawienie daty końcowej na 21 marca oznacza, że kod będzie aktywny jeszcze w dniu 21 marca do godziny 23.59. 
+* **rodzaj** - wybieramy czy ma się naliczać rabat procentowy czy kwotowy. 
 * **wartość** - w zależności od wybranego rodzaju ustalamy wielkość rabatu procentowego (np. 30, co oznacza 30%) lub kwotowego (np. 20, co oznacza 20 zł).
 * **ilość** - ustalamy ilość dostępnych kodów rabatowych. Pozostawienie pola pustego oznacza nieograniczoną ilość. 
+* **ilość na studenta** - ustalamy limit użycia danego kodu przez studenta. Pozostawienie pola pustego oznacza nieograniczoną ilość. Przykład: Jeśli w swojej ofercie mamy 50 produktów i chcemy, aby uczestnik mógł wybrać 5 produktów i kupić je po niższej cenie (przy użyciu kodu) to wówczas powinniśmy ustawić ilość na studenta: 5. 
 
 4. Wybierz kursy, dla których chcesz zastosować kod:
 
-* **wszystkie kursy** - kod będzie naliczał rabat na wszystkie produkty, jakie posiadasz w ofercie. Czyli na kursy pojedyncze, pakiety, konsultacje i subskrypcje. 
+* **wszystkie kursy** - kod będzie naliczał rabat na wszystkie produkty, jakie posiadasz w ofercie. Czyli na kursy online, pakiety, konsultacje, pliki, wydarzenia online i subskrypcje. 
 * **subskrypcja** - kod będzie obejmował wyłącznie rabat na ofertę subskrypcyjną. 
-* **produkty z pojedynczą płatnością** - kod będzie naliczał rabat tylko na wybrany kurs pojedynczy, konsultację lub pakiet. 
+* **produkty z pojedynczą płatnością** - kod będzie naliczał rabat tylko na kursy online, konsultacje, pakiety, pliki i wydarzenia online. Po wybraniu tej opcji kliknij przycisk Przejdź do ustawiń. Przejdziesz na stronę, gdzie będziesz mógł wybrać produkty, do których chcesz przypisać ten kod. 
+
+![screen-ustawienie-kodu](./images/screen-ustawienie-kodu-pojedyncze.png)
+
 
 
 Jeśli chcesz, aby rabat naliczał się po wpisaniu kodu w Pole rabatowe na stronie płatności to należy wejść w **Ustawienia strony -> Funkcje** -> i zaznaczyć opcję *Wyświetlaj pole do wpisania kodu rabatowego na stronie zakupowej.* 
 
 Pole to pojawi się nad przyciskiem KUP TERAZ.
 
-![screen-kod-rabatowy](./images/screen-kod-rabatowy.jpg)
+![screen-kod-rabatowy](./images/screen-kod-rabatowy.png)
 
 
-Jeśli natomiast chcesz, aby rabat się naliczał od razu po przejściu na stronę z linku. To należy do url strony dokonywania zakupu (checkout) dodać na końcu odpowiedni parametr, np: /?promo_code=webinar30.
+Jeśli natomiast chcesz, aby rabat się naliczał od razu po przejściu na stronę z linku. To należy do url strony dokonywania zakupu (checkout) dodać na końcu odpowiedni parametr, np: /?promo_code=wiosna20.
 
-I wówczas taki link przyjmie postać https://inspiracje.skyier.pl/pakiet-kurs-1-i-3/checkout/?promo_code=webinar30. I rabat zostanie naliczony automatycznie, bez konieczności wpisywania kodu w Pole rabatowe. 
+I wówczas taki link przyjmie postać https://inspiracje.skyier.pl/tytul-produktu/checkout/?promo_code=wiosna20. I rabat zostanie naliczony automatycznie, bez konieczności wpisywania kodu w Pole rabatowe. 
 
-![screen-link-promor](./images/screen-link-promor.jpg)
+![screen-link-promor](./images/screen-link-promo.png)
 
 <br/>
 
