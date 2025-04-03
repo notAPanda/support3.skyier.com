@@ -26,7 +26,7 @@ Aby stworzyć kod rabatowy wybierz w górnym menu zakładkę **SPRZEDAŻ -> Kody
 
 Kliknij w przycisk **Dodaj**. Pojawi się krótki formularz do wypełnienia.
 
-![screen-ustawienie-kodu](./images/screen-ustawienie-kodu.png)
+![screen-ustawienie-kodu](./images/screen-ustawienia-kodu.png)
 
 Podaj:
 * **tytuł** - ta nazwa nie będzie widoczna dla studentów. Podana nazwa powinna pomóc Ci rozpoznać, w jakim celu kod został stworzony.
