@@ -63,5 +63,5 @@ features:
   - title: Napisz do nas
     details: Napisz do nas na hello[@]skyier.com
   - title: Umów się na spotkanie
-    details: Masz trudniejsze pytanie? Zarezerwuj sobie miejsce tutaj - https://calendly.com/maciej-skyier/15min
+    details: Masz trudniejsze pytanie? Zarezerwuj sobie miejsce tutaj - https://cal.skyier.pl/team/skyier
 ---

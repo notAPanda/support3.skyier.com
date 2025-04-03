@@ -43,16 +43,16 @@ Podstawowe znaczniki:
 
 * nagłówek H3 - wstaw trzy "hasztagi" przed wyrazem, np. ### Dzień dobry
 
-* **wyboldowanie** - wstaw przed i za wyrazem/zdaniem dwie gwiazdki
+* **wyboldowanie** - wstaw przed i za wyrazem/zdaniem dwie gwiazdki **
 
-* *kursywa* - wstaw przed i za wyrazem/zdaniem jedną gwiazdkę
+* *kursywa* - wstaw przed i za wyrazem/zdaniem jedną gwiazdkę *
 
 * [Zdanie, które chcemy podlinkować](https://www.google.com). Aby wstawić link do zdania należy w nawiasach [] wstawić zdanie, które chcemy podlinkować, a obok w nawiasach () wstawić link do strony, do której chcemy odesłać użytkownika.
 
-Wiadomość napisana w edytorze
+Wiadomość napisana w edytorze:
 
 ![screen-konsultacja-przed](./images/screen-konsultacja-przed.png)
 
-Wiadomość widoczna dla użytkownika
+Wiadomość widoczna dla użytkownika:
 
 ![screen-konsultacja-po](./images/screen-konsultacja-po.png)

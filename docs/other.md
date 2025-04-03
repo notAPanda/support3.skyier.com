@@ -206,4 +206,26 @@ Podany czas, uczestnik będzie widział w swoim panelu oglądania.
 ![screen-czas-trwania-2](./images/screen-czas-trwania-2.png)
 
 
+## Markdown
 
+Podstawowe znaczniki:
+
+* nagłówek H1 - wstaw jeden "hasztag" przed wyrazem, np. # Dzień dobry
+
+* nagłówek H2 - wstaw dwa "hasztagi" przed wyrazem, np. ## Dzień dobry
+
+* nagłówek H3 - wstaw trzy "hasztagi" przed wyrazem, np. ### Dzień dobry
+
+* **wyboldowanie** - wstaw przed i za wyrazem/zdaniem dwie gwiazdki **
+
+* *kursywa* - wstaw przed i za wyrazem/zdaniem jedną gwiazdkę *
+
+* [Zdanie, które chcemy podlinkować](https://www.google.com). Aby wstawić link do zdania należy w nawiasach [] wstawić zdanie, które chcemy podlinkować, a obok w nawiasach () wstawić link do strony, do której chcemy odesłać użytkownika.
+
+Wiadomość napisana w edytorze:
+
+![screen-konsultacja-przed](./images/screen-konsultacja-przed.png)
+
+Wiadomość widoczna dla użytkownika:
+
+![screen-konsultacja-po](./images/screen-konsultacja-po.png)
