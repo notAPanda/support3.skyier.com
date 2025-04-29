@@ -8,7 +8,9 @@ date: 2022-10-01
 
 ## Cena
 
-1. Aby dodać cenę produktu należy wejść do **Edycji kursu.**
+1. Aby dodać cenę produktu należy wejść na stronę Produkty. 
+
+2. Wybrać przy produkcie opcję **Edytuj**.
 
 ![screen-edycja-kursu](./images/screen-edycja-kursu.jpg)
 
@@ -16,32 +18,33 @@ date: 2022-10-01
 
 ![screen-promo-cena](./images/screen-promo-cena.jpg)
 
-Cena produktu nie może być niższa niż 5 zł. 
+Cena produktu powinna wynosić minimum 5 zł. 
+
 
 <br>
 
 ## Kody promocyjne
 
-Aby stworzyć kod rabatowy wybierz w górnym menu zakładkę **SPRZEDAŻ -> Kody promocyjne**
+1. Aby stworzyć kod rabatowy wybierz zakładkę **SPRZEDAŻ -> Kody promocyjne**
 
-Kliknij w przycisk **Dodaj**. Pojawi się krótki formularz do wypełnienia.
+2. Kliknij przycisk **Dodaj**. Pojawi się krótki formularz do wypełnienia.
 
 ![screen-ustawienie-kodu](./images/screen-ustawienia-kodu.png)
 
 Podaj:
 * **tytuł** - ta nazwa nie będzie widoczna dla studentów. Podana nazwa powinna pomóc Ci rozpoznać, w jakim celu kod został stworzony.
-* **kod** - nazwa, jaką użytkownik będzie musiał wpisać w wyznaczone pole na stronie zakupowej, aby rabat został naliczony. Kod musi posiadać unikalną nazwę. 
-* **data ważności** - definiuje czas trwania kodu. Po upływie ustawionej daty kod traci na ważności. Jeśli nie ustawimy daty ważności, kod będzie ważny przez cały czas. Ustawienie daty końcowej na 21 marca oznacza, że kod będzie aktywny jeszcze w dniu 21 marca do godziny 23.59. 
-* **rodzaj** - wybieramy czy ma się naliczać rabat procentowy czy kwotowy. 
-* **wartość** - w zależności od wybranego rodzaju ustalamy wielkość rabatu procentowego (np. 30, co oznacza 30%) lub kwotowego (np. 20, co oznacza 20 zł).
-* **ilość** - ustalamy ilość dostępnych kodów rabatowych. Pozostawienie pola pustego oznacza nieograniczoną ilość. 
-* **ilość na studenta** - ustalamy limit użycia danego kodu przez studenta. Pozostawienie pola pustego oznacza nieograniczoną ilość. Przykład: Jeśli w swojej ofercie mamy 50 produktów i chcemy, aby uczestnik mógł wybrać 5 produktów i kupić je po niższej cenie (przy użyciu kodu) to wówczas powinniśmy ustawić ilość na studenta: 5. 
+* **kod** - nazwa, jaką użytkownik będzie musiał wpisać w wyznaczonym polu na stronie zakupowej, aby rabat został naliczony. Kod musi posiadać unikalną nazwę. 
+* **data ważności** - definiuje czas trwania kodu. Po upływie ustawionej daty kod traci na ważności. Jeśli nie ustawisz daty ważności, kod będzie ważny przez cały czas. Ustawienie daty końcowej na 21 marca oznacza, że kod będzie aktywny jeszcze w dniu 21 marca do godziny 23.59. 
+* **rodzaj** - wybierz czy ma się naliczać rabat procentowy czy kwotowy. 
+* **wartość** - w zależności od wybranego rodzaju ustal wielkość rabatu procentowego (np. 30, co oznacza 30%) lub kwotowego (np. 20, co oznacza 20 zł).
+* **ilość** - ustal ilość dostępnych kodów rabatowych. Pozostawienie pola pustego oznacza nieograniczoną ilość. 
+* **ilość na studenta** - ustal limit użycia danego kodu przez studenta. Pozostawienie pola pustego oznacza nieograniczoną ilość. Przykład: Jeśli w swojej ofercie masz 50 produktów i chcesz, aby uczestnik mógł wybrać 5 produktów i kupić je po niższej cenie (przy użyciu kodu) to wówczas powinieneś ustawić ilość na studenta: 5. 
 
-4. Wybierz kursy, dla których chcesz zastosować kod:
+Wybierz produkty, dla których chcesz zastosować kod:
 
 * **wszystkie kursy** - kod będzie naliczał rabat na wszystkie produkty, jakie posiadasz w ofercie. Czyli na kursy online, pakiety, konsultacje, pliki, wydarzenia online i subskrypcje. 
 * **subskrypcja** - kod będzie obejmował wyłącznie rabat na ofertę subskrypcyjną. 
-* **produkty z pojedynczą płatnością** - kod będzie naliczał rabat tylko na kursy online, konsultacje, pakiety, pliki i wydarzenia online. Po wybraniu tej opcji kliknij przycisk Przejdź do ustawiń. Przejdziesz na stronę, gdzie będziesz mógł wybrać produkty, do których chcesz przypisać ten kod. 
+* **produkty z pojedynczą płatnością** - kod będzie naliczał rabat tylko na kursy online, konsultacje, pakiety, pliki i wydarzenia online. Po wybraniu tej opcji kliknij przycisk Przejdź do ustawień. Przejdziesz na stronę, gdzie będziesz mógł wybrać produkty, do których chcesz przypisać ten kod. Możesz ten kod potem **edytować** i zmienić jego podstawowe ustawienia, takie jak: data ważności oraz produkty, na jakie obowiązuje. 
 
 ![screen-ustawienie-kodu](./images/screen-ustawienie-kodu-pojedyncze.png)
 
@@ -54,7 +57,7 @@ Pole to pojawi się nad przyciskiem KUP TERAZ.
 ![screen-kod-rabatowy](./images/screen-kod-rabatowy.png)
 
 
-Jeśli natomiast chcesz, aby rabat się naliczał od razu po przejściu na stronę z linku. To należy do url strony dokonywania zakupu (checkout) dodać na końcu odpowiedni parametr, np: /?promo_code=wiosna20.
+Jeśli natomiast chcesz, aby rabat naliczał się od razu po przejściu na stronę zakupową. To należy do url strony dokonywania zakupu (checkout) dodać na końcu odpowiedni parametr, np: /?promo_code=wiosna20.
 
 I wówczas taki link przyjmie postać https://inspiracje.skyier.pl/tytul-produktu/checkout/?promo_code=wiosna20. I rabat zostanie naliczony automatycznie, bez konieczności wpisywania kodu w Pole rabatowe. 
 
@@ -91,7 +94,9 @@ Prowadzenie rozliczeń pomiędzy Tobą, a patnerami afiliacyjnymi należy robić
 
 ## Cena promocyjna
 
-Aby ustawić cenę promocyjną należy wejść w **Edycję kursu.**
+1. Aby ustawić cenę promocyjną produktu należy wejść na stronę Produkty. 
+
+2. Wybrać przy produkcie opcję **Edytuj**.
 
 
 ![screen-edycja-kursu-2](./images/screen-edycja-kursu-2.jpg)
@@ -101,13 +106,14 @@ Następnie przejść do sekcji **CENA** i zaznaczyć opcję *Produkt jest w prom
 ![screen-cena-promo](./images/screen-cena-promo.png)
 
 **Przy ustalaniu ceny promocyjnej należy podać:**
-* cenę standardową
-* cenę promocyjną
+* Cenę standardową
+* Cenę promocyjną
+* Najniższą cenę z 30 dni. Według wprowadzonej dyrektywy Omnibus jesteś zobowiązany do podania najniższej ceny produktu sprzed 30 dni.
 * okres trwania promocji (od-do). Ustawienie daty końcowej na 21 marca oznacza, że cena promocyjna będzie aktywna jeszcze w dniu 21 marca do godziny 23.59. 
 
 Po zakończeniu promocji cena zmieni się automatycznie na cenę standardową. 
-
-Aby udostępnić ograniczoną ilość kursów w cenie promocyjnej należy skorzystać z opcji **Ilość produktów w cenie promocyjnej.** I wówczas należy podać ile kursów dostępnych jest w niższej cenie. W tym wypadku zmiana ceny z promocyjnej na standardową nastąpi w momencie wyprzedaży wszystkich kursów w niższej cenie lub w momencie zakończenia promocji (według ustawionej daty). W zależności od tego, która sytuacja nastąpi pierwsza. 
+ 
+* Ilość produktów w cenie promocyjnej. Jeśli chcesz możesz podać, ile produktów dostępnych jest w cenie promocyjnej. Zmiana ceny z promocyjnej na standardową nastąpi w momencie wyprzedaży wszystkich produktów w niższej cenie lub w momencie zakończenia promocji (według ustawionej daty). W zależności od tego, która sytuacja nastąpi pierwsza. 
 
 **-1 oznacza nieskoczoną ilość kursów dostępnych w cenie promocyjnej.**
 
@@ -116,6 +122,17 @@ Przykład: Jeśli ustawimy: <br>
 Cena standardowa kursu - 35 zł<br>
 Cena promocyjna - 12 zł<br>
 Cena po uwzględnieniu kodu rabatowego (zakładając, że ustawimy kod rabatowy na 50%) - 17,5 zł
+
+<br/>
+
+## Stawka VAT
+
+Ta opcja jest dla osób, które:
+
+* Mają podpiętą integrację z jakimś systemem do fakturowania (InFakt, Fakturownia)
+* Sprzedają produkty online, które mają inną stawkę VAT niż standardowa stawka VAT ustawiona w integracji
+
+Przykład: Jeśli Twoją standardową stawką VAT jest 23%, ale sprzedajesz ebook, dla którego stawka VAT wynosi 5% to wówczas ustaw ją przy tym produkcie. W innym przypadku będzie naliczana Twoja standardowa stawka, czyli np. 23%. 
 
 <br/>
 
