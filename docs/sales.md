@@ -608,8 +608,25 @@ A następnie przejść do **sekcji SZCZEGÓŁY** i zaznaczyć opcję *Produkt wy
 
 ![screen-wylaczenie-sprzedaz-1](./images/screen-wylaczenie-sprzedaz-1.jpg)
 
-Na stronie sprzedażowej (checkoucie) napis na przycisku zakupowym zmieni się na *Produkt wyłączony ze sprzedaży* i zakup nie będzie możliwy. 
+Na stronie sprzedażowej (checkoucie) napis na przycisku zakupowym zmieni się z *Kupuję i płacę* na *Produkt wyłączony ze sprzedaży* i zakup nie będzie możliwy. 
 
 ![screen-wylaczenie-sprzedaz-2](./images/screen-wylaczenie-sprzedaz-2.png)
 
 **Dzięki tej opcji możliwe jest wyłączenie produktu z dalszej sprzedaży. Osoby, które zakupiły produkt przed włączeniem tej opcji nadal będą miały do niego dostęp.** 
+
+<br>
+
+## Ograniczona ilość miejsc
+
+Aby włączyć limit sprzedaży produktu należy wejść w **Edycję produktu.** 
+
+![screen-edycja-kursu](./images/screen-edycja-kursu.jpg)
+
+A następnie przejść do **sekcji SZCZEGÓŁY** i włączyć opcję *Ograniczona ilość miejsc*. Należy podać ilość produktów oferowanych sprzedaży oraz, od kiedy ma być naliczany limit. 
+
+![screen-wylaczenie-sprzedaz-1](./images/screen-ograniczona-ilosc.png)
+
+Po wyprzedaniu wszystkich ilości na stronie sprzedażowej (checkoucie) napis na przycisku zakupowym zmieni się z *Kupuję i płacę* na *Produkt wyłączony ze sprzedaży* i dalszy zakup produktu nie będzie możliwy. 
+
+![screen-wylaczenie-sprzedaz-2](./images/screen-wylaczenie-sprzedaz-2.png)
+
