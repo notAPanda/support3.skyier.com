@@ -610,6 +610,6 @@ A następnie przejść do **sekcji SZCZEGÓŁY** i zaznaczyć opcję *Produkt wy
 
 Na stronie sprzedażowej (checkoucie) napis na przycisku zakupowym zmieni się na *Produkt wyłączony ze sprzedaży* i zakup nie będzie możliwy. 
 
-![screen-wylaczenie-sprzedaz-2](./images/screen-wylaczenie-sprzedaz-2.jpg)
+![screen-wylaczenie-sprzedaz-2](./images/screen-wylaczenie-sprzedaz-2.png)
 
 **Dzięki tej opcji możliwe jest wyłączenie produktu z dalszej sprzedaży. Osoby, które zakupiły produkt przed włączeniem tej opcji nadal będą miały do niego dostęp.** 
