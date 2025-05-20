@@ -3,36 +3,47 @@ title: Cache Przeglądarek
 date: 2022-10-01
 ---
 
-# Wyczyść cache **tylko dla jednej strony** (przez DevTools)
+# Wyczyść cache **tylko dla jednej strony** – Windows/Linux
 
 ## 📌 Uwaga
-Zanim zaczniesz, spróbuj **force refresh**:  
-**Windows/Linux:** `Ctrl + F5`  
-**macOS:** `Cmd + Shift + R`
+Na początek spróbuj **force refresh**: `Ctrl + F5`
 
 ## 🌐 Chrome / Edge / Brave
 1. Otwórz stronę
 2. `F12` lub `Ctrl + Shift + I` (DevTools)
-3. Prawy klik na przycisku odświeżania 🔄 (obok adresu strony)
+3. Prawy klik na przycisku 🔄 (obok paska adresu)
 4. Wybierz: `Empty Cache and Hard Reload`
-
----
 
 ## 🦊 Firefox
 1. `F12` → zakładka `Network`
-2. Zaznacz: `Disable Cache` (tylko aktywne, gdy DevTools otwarte)
-3. Odśwież stronę (`F5`)
+2. Zaznacz: `Disable Cache` (działa tylko gdy DevTools otwarte)
+3. Odśwież (`F5`)
+4. Zakładka `Storage` → `Clear Site Data` (dla tej strony)
 
-> 🔥 Firefox NIE ma opcji „Wyczyść cache tylko dla tej strony” jak Chrome – trzeba iść przez `Storage`:
+> Firefox nie ma opcji `Empty Cache and Hard Reload` jak Chrome.
 
+# Wyczyść cache **tylko dla jednej strony** – macOS
+
+## 📌 Uwaga
+Najpierw spróbuj: `Cmd + Shift + R`
+
+## 🌐 Chrome / Edge / Brave
+1. Otwórz stronę
+2. `Cmd + Option + I` (DevTools)
+3. Prawy klik na przycisku 🔄 (obok paska adresu)
+4. Wybierz: `Empty Cache and Hard Reload`
+
+## 🦊 Firefox
+1. `Cmd + Option + I` → zakładka `Network`
+2. Zaznacz: `Disable Cache`
+3. Odśwież stronę (`Cmd + R`)
 4. Zakładka `Storage` → `Clear Site Data`
 
----
-
-## 🧭 Safari (macOS)
-1. `Cmd + Option + E` (czyści cały cache)
-   - Brak selektywnego czyszczenia jednej domeny
-2. Alternatywa: `Develop` → `Empty Caches`
-3. Lub `Safari` → `Ustawienia witryny` → usuwanie danych dla konkretnej strony (ręcznie)
+## 🧭 Safari
+1. `Cmd + Option + E` (czyści cały cache – brak selektywnego czyszczenia)
+2. Lub: `Develop` → `Empty Caches`
+3. Alternatywnie:  
+   `Safari` → `Ustawienia` → `Prywatność` → `Zarządzaj danymi witryn`  
+   Wybierz stronę → `Usuń`
 
 ---
