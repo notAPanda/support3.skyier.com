@@ -58,6 +58,9 @@ hero:
     - theme: brand
       text: WooComeerce
       link: /docs/woocommerce
+    - theme: brand
+      text: Cache
+      link: /docs/cache
 
 features:
   - title: Napisz do nas
