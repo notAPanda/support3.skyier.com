@@ -129,10 +129,10 @@ Cena po uwzględnieniu kodu rabatowego (zakładając, że ustawimy kod rabatowy 
 
 Ta opcja jest dla osób, które:
 
-* Mają podpiętą integrację z jakimś systemem do fakturowania (InFakt, Fakturownia)
-* Sprzedają produkty online, które mają inną stawkę VAT niż standardowa stawka VAT ustawiona w integracji
+* Mają podpiętą integrację z jakimś systemem do fakturowania (InFakt, Fakturownia, itp.)
+* Sprzedają produkty online, które mają inną stawkę VAT niż standardowa stawka VAT ustawiona w integracji.
 
-Przykład: Jeśli Twoją standardową stawką VAT jest 23%, ale sprzedajesz ebook, dla którego stawka VAT wynosi 5% to wówczas ustaw ją przy tym produkcie. W innym przypadku będzie naliczana Twoja standardowa stawka, czyli np. 23%. 
+Przykład: Jeśli Twoją standardową stawką VAT jest 23%, ale sprzedajesz ebook, dla którego stawka VAT wynosi 5% to wówczas ustaw ją przy tym konkretnym produkcie. W innym przypadku zostanie naliczana Twoja standardowa stawka, czyli np. 23%. 
 
 <br/>
 
@@ -622,11 +622,24 @@ Aby włączyć limit sprzedaży produktu należy wejść w **Edycję produktu.**
 
 ![screen-edycja-kursu](./images/screen-edycja-kursu.jpg)
 
-A następnie przejść do **sekcji SZCZEGÓŁY** i włączyć opcję *Ograniczona ilość miejsc*. Należy podać ilość produktów oferowanych sprzedaży oraz, od kiedy ma być naliczany limit. 
+A następnie przejść do **sekcji SZCZEGÓŁY** i włączyć opcję *Ograniczona ilość miejsc*. Należy podać ilość produktów oferowanych w sprzedaży oraz, od kiedy ma być naliczany limit. 
 
 ![screen-wylaczenie-sprzedaz-1](./images/screen-ograniczona-ilosc.png)
 
 Po wyprzedaniu wszystkich ilości na stronie sprzedażowej (checkoucie) napis na przycisku zakupowym zmieni się z *Kupuję i płacę* na *Produkt wyłączony ze sprzedaży* i dalszy zakup produktu nie będzie możliwy. 
 
 ![screen-wylaczenie-sprzedaz-2](./images/screen-wylaczenie-sprzedaz-2.png)
+
+## Limit dostępu do produktu
+
+Aby włączyć limit sprzedaży produktu należy wejść w **Edycję produktu.** 
+
+![screen-edycja-kursu](./images/screen-limit-dostepu.png)
+
+A następnie przejść do **sekcji SZCZEGÓŁY** i ustawić limit dostępu do produktu.  
+
+Można ustawić limit:
+
+* **czasowy** - pozwala przydzielić dostęp do produktu np. na 90 dni. Odliczanie zaczyna się od dnia dokonania zakupu przez użytkownika. 
+* **w oparciu o datę** - należy wybrać datę, do kiedy uczestnicy powinni mieć dostęp do produktu. Po tej dacie dostęp zostanie odebrany automatycznie. 
 
