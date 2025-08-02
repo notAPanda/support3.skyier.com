@@ -630,6 +630,8 @@ Po wyprzedaniu wszystkich ilości na stronie sprzedażowej (checkoucie) napis na
 
 ![screen-wylaczenie-sprzedaz-2](./images/screen-wylaczenie-sprzedaz-2.png)
 
+<br>
+
 ## Limit dostępu do produktu
 
 Aby włączyć limit sprzedaży produktu należy wejść w **Edycję produktu.** 
@@ -640,6 +642,6 @@ A następnie przejść do **sekcji SZCZEGÓŁY** i ustawić limit dostępu do pr
 
 Można ustawić limit:
 
-* **czasowy** - pozwala przydzielić dostęp do produktu np. na 90 dni. Odliczanie zaczyna się od dnia dokonania zakupu przez użytkownika. 
+* **czasowy** - pozwala przydzielić dostęp do produktu np. na 90 dni. Odliczanie zaczyna się od dnia dokonania zakupu przez użytkownika. Po tych dniach dostęp zostanie odebrany automatycznie.
 * **w oparciu o datę** - należy wybrać datę, do kiedy uczestnicy powinni mieć dostęp do produktu. Po tej dacie dostęp zostanie odebrany automatycznie. 
 

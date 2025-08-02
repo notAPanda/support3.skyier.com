@@ -4,30 +4,38 @@ date: 2022-10-01
 
 ---
 
-# Subskrypcje
+# Subskrypcja
+
+Aby prowadzić sprzedaż produktów online w modelu subskrypcyjnym trzeba posiadać jeden z następujących system płatności: **PayU, TPay lub Stripe.** 
 
 ## Sprzedaż subskrypcyjna
 Aby włączyć model sprzedaży subskrypcyjnej należy przejść do **Ustawień strony -> Model pobierania płatności -> zaznaczyć opcję *Model subskrypcyjny*.**
 
-<br>
-
-## Sprzedaż subskrypcyjna i jednorazowa
-Aby włączyć model sprzedaży subskrypcyjnej i jednorazowej należy przejść do **Ustawienia konta -> Model pobierania płatności -> zaznaczyć jednocześnie opcje *Jednorazowe płatności i Model subskrypcyjny*.**
-
-![screen-sub-poj](./images/screen-sub-poj.png)
+![screen-sub](./images/screen-sub.png)
 
 
 <br/>
 
 ## Plany subskrypcyjne
 
-Aby ustawić pakiety subskrypcyjne należy przejść do **Ustawienia konta -> Model pobierania płatności -> *Model subskrypcyjny*: *Opcje planów*.**
+Aby ustawić pakiety subskrypcyjne należy przejść do **Ustawienia konta -> Model pobierania płatności -> *Model subskrypcyjny*: *Opcje*.**
 
 ![screen-sub-plany](./images/screen-sub-plany.png)
 
-A następnie wybrać odpowiednie **plany subskrypcyjne.**
+A następnie kliknąć przycisk **Dodaj**. 
 
-![screen-opcja-planow-1](./images/screen-opcja-planow-1.jpg)
+I stworzyć swoje plany subskrypcyjne. Uzupełniamy następujące dane:
+
+* **Nagłówek** - jest to tytuł planu, który będzie widoczny dla użytkownika
+* **Produkty** - wybieramy produkty, do jakich chcemy, aby użytkownicy mieli dostęp w tym planie. Bo w ramach subskrypcji mogą mieć dostęp do wszystkich produktów, jakie są na platformie. Lub tylko do kilku wybranych. Jeśli zostanie wybrana opcja:
+
+- **Wszystko** - to wówczas uczestnicy będą mieli dostęp do wszystkich produktów dostępnych na platformie. Z wyjątkiem produktów, które mają włączoną opcję **Sprzedaż poza subskrypcją**. Co to znaczy? Załóżmy, że na platformie masz 10 kursów wideo, które chcesz udostępniać w ramach subskrypcji. Ale masz też e-book, który (z jakiegoś powodu) nie chcesz, aby wchodził w pakiet subskrypcyjny. Włączenie przy nim opcji [Sprzedaż poza subskrypcją] (https://support.skyier.com/docs/subscription.html#sprzedaz-kursu-poza-subskrypcja) sprawi, że subskrybenci nie będą mieli do niego dostępu w ramach subskrypcji. 
+
+- **Wybrano** - można też wybrać, do których produktów uczestnicy powinni mieć dostęp w ramach subskrypcji. Bo mogą mieć dostęp tylko do kilku wybranych. I jeśli zostanie wybrany produkt, przy którym jest włączona opcja **Sprzedaż poza subskrypcją**, to również wejdzie w skład tego planu. Inaczej mówiąc subskrybenci w tym wypadku będą mieli do niego dostęp. 
+
+* **Studenci mogą przejść na ten plan** - ta funkcja zadziała w sytuacji, kiedy jest stworzonych kilka planów subskrypcyjnych. Np. plan Silver i plan Gold. Włączając tą opcję dajemy możliwość subskrybentom przechodzenia między planami w dowolnym momencie. 
+
+
 
 Do dyspozycji mamy:
 
@@ -94,3 +102,8 @@ Aby włączyć tą opcję należy wejść w **Edycję kursu.**
 A następnie przejść do **sekcji SZCZEGÓŁY** i zaznaczyć opcję *Produkt sprzedawany poza subskrypcją*. 
 
 ![screen-poza-subskrypcja](./images/screen-poza-subskrypcja.png)
+
+## Sprzedaż subskrypcyjna i jednorazowa
+Aby włączyć jednocześnie model sprzedaży subskrypcyjnej i jednorazowej należy przejść do **Ustawienia konta -> zaznaczyć jednocześnie opcje *Jednorazowe płatności i Model subskrypcyjny*.**
+
+![screen-sub-poj](./images/screen-sub-poj.png)

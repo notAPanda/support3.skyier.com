@@ -89,6 +89,8 @@ Jeśli natomiast chcesz zostawić dodatkowe informacje osobom zapisanym na webin
 
 **Ważne** Po zakończeniu transmisji YouTube automatycznie nagra Ci wideo. Wideo to będzie również dostępne w platformie. Jeśli nie chcesz, aby była możliwość jego późniejszego oglądania to usuń to wideo z YT lub usuń ze Skyier embed url. 
 
+<br>
+
 ### Przekształć w kurs online
 
 ![screen-skyier-live-4](./images/screen-live-course-online.png)
