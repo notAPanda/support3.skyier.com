@@ -90,7 +90,7 @@ Aby dodać te informacje należy włączyć opcję: Informacje dodatkowe na stro
 
 Istnieje też możliwość wstawienia dodatkowych informacji na stronie z wyborem i opisem poszczególnych planów subskrypcyjnych.
 
-![screen-opcja-planow-5](./images/screen-sub-inf-subscribe.png)
+![screen-opcja-planow-5](./images/screen-sub-info-subscribe.png)
 
 
 Aby dodać te informacje należy przejść do sekcji: Informacje dodatkowe na stronie /subscribe.
