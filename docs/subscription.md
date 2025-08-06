@@ -6,10 +6,10 @@ date: 2022-10-01
 
 # Subskrypcja
 
-Aby rozpocząć sprzedaż produktów online w modelu subskrypcyjnym trzeba posiadać jeden z następujących systemów płatności: **PayU, TPay lub Stripe.** 
+Sprzedaż produktów online w modelu subskrypcyjnym możliwa jest z jednym z następujących systemów płatności: **PayU, TPay lub Stripe.** 
 
 ## Sprzedaż subskrypcyjna
-Aby włączyć model sprzedaży subskrypcyjnej należy przejść do **Ustawień strony -> Model pobierania płatności -> zaznaczyć opcję *Model subskrypcyjny*.**
+Aby włączyć metodę sprzedaży w modelu subskrypcyjnym należy przejść do **Ustawień strony -> Model pobierania płatności -> zaznaczyć opcję *Model subskrypcyjny*.**
 
 ![screen-sub](./images/screen-sub.png)
 
@@ -18,29 +18,37 @@ Aby włączyć model sprzedaży subskrypcyjnej należy przejść do **Ustawień 
 
 ## Plany subskrypcyjne
 
-Aby ustawić pakiety subskrypcyjne należy przejść do **Ustawienia konta -> Model pobierania płatności -> *Model subskrypcyjny*: *Opcje*.**
+Aby dodać plan subskrypcyjny należy przejść do **Ustawienia konta -> Model pobierania płatności -> *Model subskrypcyjny*: *Opcje*.**
 
 ![screen-sub-plany](./images/screen-sub-plany.png)
 
 A następnie kliknąć przycisk **Dodaj**. 
 
-I stworzyć swoje plany subskrypcyjne. Należy uzupełnić następujące dane:
+I następnie stworzyć plany subskrypcyjne. 
+
+Należy uzupełnić następujące dane:
 
 * **Nagłówek** - jest to tytuł planu, który będzie widoczny dla użytkownika na stronie:
 
-- z ofertą planów subskrypcyjnych
-![screen-sub-checkout](./images/screen-sub-checkout.png)
-- na stronie dokonywania zakupu (checkoucie).
-![screen-sub-oferta](./images/screen-sub-oferta.png)
+a) z ofertą planów subskrypcyjnych
+![screen-sub-checkout](./images/screen-sub-oferta.png)
 
-* **Produkty** - wybieramy produkty, do jakich chcemy, aby użytkownicy miał dostęp. W ramach subskrypcji mogą mieć dostęp do wszystkich produktów, jakie są na platformie. Lub tylko do kilku wybranych. Jeśli zostanie wybrana opcja:
+Strona z ofertą planów subskrypcyjnych jest tworzona automatycznie i znajduje się pod adresem: https://nazwa-twojej-domeny/subscribe.
 
-- **Wszystko** - to wówczas uczestnicy będą mieli dostęp do wszystkich produktów dostępnych na platformie. Z wyjątkiem produktów, które mają włączoną opcję **Sprzedaż poza subskrypcją**. Co to znaczy? Załóżmy, że na platformie masz 10 kursów wideo, które chcesz udostępniać w ramach subskrypcji. Ale masz też e-book, który (z jakiegoś powodu) nie chcesz, aby wchodził w pakiet subskrypcyjny. Włączenie przy nim opcji [Sprzedaż poza subskrypcją] (https://support.skyier.com/docs/subscription.html#sprzedaz-kursu-poza-subskrypcja) spowoduje, że subskrybenci nie będą mieli do niego dostępu w ramach subskrypcji. 
+b) na stronie dokonywania zakupu (checkoucie).
+![screen-sub-oferta](./images/screen-sub-checkout.png)
 
-- **Wybrano** - można też wybrać, do których produktów uczestnicy powinni mieć dostęp w ramach subskrypcji. Bo mogą mieć dostęp tylko do kilku wybranych. Ale UWAGAm w tym wypadku, jeśli zostanie wybrany produkt, przy którym jest włączona wcześniej wspomiana opcja **Sprzedaż poza subskrypcją**, to również wejdzie on w pakiet tego planu. Inaczej mówiąc subskrybenci w tym wypadku będą mieli do niego dostęp. 
+* **Produkty** - należy zaznaczyć produkty, do jakich chcemy, aby użytkownik miał dostęp. W ramach subskrypcji mogą mieć dostęp do wszystkich produktów, jakie są na platformie. Lub tylko do kilku wybranych. 
 
-* **Studenci mogą przejść na ten plan** - ta funkcja zadziała w sytuacji, kiedy jest stworzonych kilka planów subskrypcyjnych. Np. plan Silver i plan Gold. Włączając tą opcję dajemy możliwość subskrybentom przechodzenia między planami w dowolnym momencie. 
+Jeśli zostanie wybrana opcja:
 
+- **Wszystko** - to wówczas uczestnicy będą mieli dostęp do wszystkich produktów dostępnych na platformie. Z wyjątkiem produktów, które mają włączoną opcję **Sprzedaż poza subskrypcją**. Co to znaczy? Załóżmy, że na platformie masz 10 kursów wideo, które chcesz udostępniać w ramach subskrypcji. Ale masz też e-book, który (z jakiegoś powodu) nie chcesz, aby wchodził w pakiet subskrypcyjny. Włączenie przy nim opcji [Sprzedaż poza subskrypcją] (https://support.skyier.com/docs/subscription.html#sprzedaz-kursu-poza-subskrypcja) spowoduje, że subskrybenci nie będą mieli do niego dostępu. 
+
+- **Wybrano** - można też wybrać, do jakich konkretnie produktów uczestnicy powinni mieć dostęp w ramach subskrypcji. Bo mogą mieć dostęp na przykład tylko do kilku wybranych. Ale UWAGA w tym wypadku, jeśli zostanie wybrany produkt, przy którym jest włączona opcja **Sprzedaż poza subskrypcją**, to również wejdzie on w pakiet tego planu. Inaczej mówiąc subskrybenci w tym wypadku będą mieli do niego dostęp. 
+
+* **Studenci mogą przejść na ten plan** - ta funkcja zadziała w sytuacji, kiedy jest stworzonych kilka planów subskrypcyjnych. Na przykład plan Silver i plan Gold. Włączając tą opcję dajesz możliwość subskrybentom zmianę planu w dowolnym momencie. 
+
+* **Ukryj ten plan** - oznacza, że dany plan może być dostępny tylko dla wybranej grupy osób. Włączenie tej opcji spowoduje, że nie będzie on wiodczny na Twojej stronie z ofertą ani na stronie zakupowej. 
 
 
 Do dyspozycji mamy:
@@ -52,7 +60,7 @@ Do dyspozycji mamy:
 * **Roczny** - użytkownik wykupuje dostęp na 12 miesięcy. I raz na 12 miesięcy pobierana jest opłata z jego karty kredytowej.
 * **Lifetime** - użytkownik wykupuje stały dostęp do platformy. Płaci raz i ma nieograniczony dostęp czasowy. 
 
-Pod każdym planem można dodać opis. Opis, który będzie informował użytkownika co wchodzi w skład każdego planu. 
+Pod każdym planem można dodać opis. Opis, który będzie informował użytkownika co wchodzi w skład każdego planu. Opis ten będzie widoczny na Twojej stronie z ofertą, dostępną pod adresem: https://nazwa-twojej-domeny/subscribe. Oraz na stronie głównej, w momencie, kiedy dodasz komponent Plany subskrypcyjne. 
 
 **Jak pokazać plany subskrypcyjne na swojej stronie?**
 
@@ -114,3 +122,5 @@ Aby włączyć jednocześnie model sprzedaży subskrypcyjnej i jednorazowej nale
 Wówczas użytkownicy będą mieli wybór czy chcą dokonać zakupu tego produktu w jednorazowej płatności czy w modelu subskrypcyjnym. 
 
 ![screen-sub-poj](./images/screen-sub-poj.png)
+
+Przyciski zakupowe subskrypcji
