@@ -24,21 +24,19 @@ Aby dodać plan subskrypcyjny należy przejść do **Ustawienia konta -> Model p
 
 A następnie kliknąć przycisk **Dodaj**. 
 
-I następnie stworzyć plany subskrypcyjne. 
-
 Należy uzupełnić następujące dane:
 
 * **Nagłówek** - jest to tytuł planu, który będzie widoczny dla użytkownika na stronie:
 
-a) z ofertą planów subskrypcyjnych
+**a) z ofertą planów subskrypcyjnych**
+
 ![screen-sub-checkout](./images/screen-sub-oferta.png)
 
-Strona z ofertą planów subskrypcyjnych jest tworzona automatycznie i znajduje się pod adresem: https://nazwa-twojej-domeny/subscribe.
+**b) na stronie dokonywania zakupu (checkoucie)**
 
-b) na stronie dokonywania zakupu (checkoucie).
 ![screen-sub-oferta](./images/screen-sub-checkout.png)
 
-* **Produkty** - należy zaznaczyć produkty, do jakich chcemy, aby użytkownik miał dostęp. W ramach subskrypcji mogą mieć dostęp do wszystkich produktów, jakie są na platformie. Lub tylko do kilku wybranych. 
+* **Produkty** - należy zaznaczyć produkty, do jakich chcemy, aby użytkownicy mieli dostęp w ramach subskrypcji. Mogą mieć dostęp do wszystkich produktów, jakie są na platformie. Lub tylko do kilku wybranych. 
 
 Jeśli zostanie wybrana opcja:
 
@@ -51,7 +49,7 @@ Jeśli zostanie wybrana opcja:
 * **Ukryj ten plan** - oznacza, że dany plan może być dostępny tylko dla wybranej grupy osób. Włączenie tej opcji spowoduje, że nie będzie on wiodczny na Twojej stronie z ofertą ani na stronie zakupowej. 
 
 
-Do dyspozycji mamy:
+Do dyspozycji jest:
 
 * **Trial** - o tym, jak działa trial znajdziesz informacje poniżej.
 * **Miesięczny** - użytkownik wykupuje dostęp do platformy na miesiąc. I raz w miesiącu pobierana jest opłata z jego karty kredytowej.
@@ -60,11 +58,7 @@ Do dyspozycji mamy:
 * **Roczny** - użytkownik wykupuje dostęp na 12 miesięcy. I raz na 12 miesięcy pobierana jest opłata z jego karty kredytowej.
 * **Lifetime** - użytkownik wykupuje stały dostęp do platformy. Płaci raz i ma nieograniczony dostęp czasowy. 
 
-Pod każdym planem można dodać opis. Opis, który będzie informował użytkownika co wchodzi w skład każdego planu. Opis ten będzie widoczny na Twojej stronie z ofertą, dostępną pod adresem: https://nazwa-twojej-domeny/subscribe. Oraz na stronie głównej, w momencie, kiedy dodasz komponent Plany subskrypcyjne. 
-
-**Jak pokazać plany subskrypcyjne na swojej stronie?**
-
-Aby wyświetlić oferowane plany subskrypcyjne na stronie głównej należy przejść do zakładki **Strony -> Strona główna, a następnie dodać sekcję Plany subskrypcyjne** W edytorze na podglądzie zobaczysz tzw. "podgląd uproszczony", ale już na stronie głównej podgląd rzeczywisty.
+Pod każdym planem można dodać opis. Opis, który będzie informował użytkownika co wchodzi w skład każdego planu. Opis ten będzie widoczny na Twojej stronie z ofertą, dostępną pod adresem: https://nazwa-twojej-domeny/subscribe. Oraz na stronie głównej, w momencie, kiedy dodasz komponent **Plany subskrypcyjne.** 
 
 
 ### Trial
@@ -103,6 +97,18 @@ Istnieje też możliwość wstawienia dodatkowych informacji na stronie z wybore
 
 Aby dodać te informacje należy przejść do sekcji: Informacje dodatkowe na stronie /subscribe.
 
+
+<br/>
+
+## Strona z ofertą subskrypcyjną
+
+Strona z ofertą planów subskrypcyjnych jest tworzona automatycznie i znajduje się pod adresem: https://nazwa-twojej-domeny/subscribe.
+
+<br/>
+
+## Strona główna z ofertą subskrypcyjną
+
+Aby wyświetlić oferowane plany subskrypcyjne na stronie głównej należy przejść do zakładki **Strony -> Strona główna, a następnie dodać sekcję Plany subskrypcyjne** W edytorze na podglądzie zobaczysz tzw. "podgląd uproszczony", ale już na stronie głównej podgląd rzeczywisty.
 
 <br/>
 
