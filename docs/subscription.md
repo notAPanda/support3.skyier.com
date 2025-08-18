@@ -102,13 +102,17 @@ Aby dodać te informacje należy przejść do sekcji: Informacje dodatkowe na st
 
 ## Strona z ofertą subskrypcyjną
 
-Strona z ofertą planów subskrypcyjnych jest tworzona automatycznie i znajduje się pod adresem: https://nazwa-twojej-domeny/subscribe.
+Strona z ofertą planów subskrypcyjnych jest tworzona automatycznie i znajduje się pod adresem: https://nazwa-twojej-domeny/subscribe
+
+![screen-sub-checkout](./images/screen-sub-oferta.png)
 
 <br/>
 
-## Strona główna z ofertą subskrypcyjną
+## Pokazanie planów subskrypcyjnych na stronie głównej
 
 Aby wyświetlić oferowane plany subskrypcyjne na stronie głównej należy przejść do zakładki **Strony -> Strona główna, a następnie dodać sekcję Plany subskrypcyjne** W edytorze na podglądzie zobaczysz tzw. "podgląd uproszczony", ale już na stronie głównej podgląd rzeczywisty.
+
+![screen-sub-plans](./images/screen-sub-plans.png)
 
 <br/>
 
@@ -123,10 +127,15 @@ A następnie przejść do **sekcji SZCZEGÓŁY** i zaznaczyć opcję *Produkt sp
 ![screen-poza-subskrypcja](./images/screen-sprzedaz-poza-sub.png)
 
 ## Sprzedaż subskrypcyjna i jednorazowa
-Aby włączyć jednocześnie model sprzedaży subskrypcyjnej i jednorazowej należy przejść do **Ustawienia konta -> zaznaczyć jednocześnie opcje *Jednorazowe płatności i Model subskrypcyjny*.**
 
-Wówczas użytkownicy będą mieli wybór czy chcą dokonać zakupu tego produktu w jednorazowej płatności czy w modelu subskrypcyjnym. 
+Aby włączyć jednocześnie model sprzedaży subskrypcyjnej i jednorazowej należy przejść do **Ustawienia konta -> zaznaczyć jednocześnie opcje *Jednorazowe płatności i Model subskrypcyjny*.**
 
 ![screen-sub-poj](./images/screen-sub-poj.png)
 
-Przyciski zakupowe subskrypcji
+Wówczas użytkownicy będą mieli wybór czy chcą dokonać zakupu tego produktu w jednorazowej płatności czy w modelu subskrypcyjnym. 
+
+Po dodaniu na stronie sprzedażowej komponentu Przyciski zakupowe automatycznie dodadzą się 2 przyciski - jeden umożliwiający zakup produktu w modelu jednorazowym, a drugi w modelu subskrypcyjnym. 
+
+![screen-sub-poj-plans](./images/screen-sub-poj-plans.png)
+
+
