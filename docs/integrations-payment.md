@@ -50,7 +50,7 @@ Wybór środowiska:<br>
 - Produkcyjne - ustawiamy, kiedy chcemy przyjmować już faktyczne płatności.
 - Testowe (Sandbox) - ustawiamy, kiedy masz w PayU wybraną wersję testową i chcesz przeprowadzić płatność testową. 
 
-**Jak dodać i gdzie znaleźć Pos id, MD5, Client id, Client secret?**
+**Jak dodać sklep i gdzie znaleźć Pos id, MD5, Client id, Client secret?**
 
 Wybierz Moje sklepy -> Dodaj sklep
 
@@ -247,3 +247,49 @@ A następnie skopiuj i podaj w Skyier:
 * **Klucz obliczania podpisu** -> Signature Key
 
 ![screen-paynow-4](./images/screen-paynow-4.png)
+
+<br>
+
+## Imoje
+
+Wybór środowiska:<br>
+- Produkcyjne - ustawiamy, kiedy chcemy przyjmować już faktyczne płatności.
+- Testowe (Sandbox) - ustawiamy, kiedy chcemy przeprowadzić płatność testową. 
+
+**Jak dodać sklep i gdzie znaleźć Identyfikator klienta, Identyfikator sklepu, Klucz sklepu?**
+
+Wybierz Sklepy -> Dodaj sklep
+
+![screen-imoje-dodaj-sklep](./images/screen-imoje-dodaj-sklep.png)
+
+Wypełnij formularz. Podając obowiązkowo:
+
+* Nazwę sklepu
+* Adres url platformy
+
+![screen-imoje-dodawanie-danych-sklepu](./images/screen-imoje-dodawanie-danych-sklepu.png)
+
+Sklep pojawił się na liście Twoich sklepów. Kliknij w niego, a następnie wybierz opcję Szczegóły.
+
+![screen-imoje-szczegoly](./images/screen-imoje-szczegoly.png)
+
+A następnie wybierz zakładkę Dane do integracji
+
+![screen-imoje-dane-integracji](./images/screen-imoje-dane-integracji.png)
+
+Skopiuj i wklej do integracji w Skyier nastepujące dane: Identyfikator klienta, Identyfikator sklepu, Klucz sklepu.
+
+Ostatnim krokiem jest ustawienie adresu notyfikacji. Aby to zrobić kliknij Edytuj w polu Adres notyfikacji. 
+
+![screen-imoje-notyfikacja](./images/screen-imoje-notyfikacja.png)
+
+I wpisz adres o strukturze: https://nazwa-platfomy.pl/api/imoje/notify
+
+![screen-imoje-adres-notyfikacji](./images/screen-imoje-adres-notyfikacji.png)
+
+
+
+
+
+
+
