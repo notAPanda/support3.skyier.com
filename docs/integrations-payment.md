@@ -262,22 +262,25 @@ Wybierz Sklepy -> Dodaj sklep
 
 ![screen-imoje-dodaj-sklep](./images/screen-imoje-dodaj-sklep.png)
 
-Wypełnij formularz. Podając obowiązkowo:
+Wypełnij formularz. **Podając obowiązkowo:**
 
 * Nazwę sklepu
 * Adres url platformy
 
 ![screen-imoje-dodawanie-danych-sklepu](./images/screen-imoje-dodawanie-danych-sklepu.png)
 
-Sklep pojawił się na liście Twoich sklepów. Kliknij w niego, a następnie wybierz opcję Szczegóły.
+Sklep pojawi się na liście Twoich sklepów. Kliknij w niego, a następnie wybierz opcję **Szczegóły**.
 
 ![screen-imoje-szczegoly](./images/screen-imoje-szczegoly.png)
 
-A następnie wybierz zakładkę Dane do integracji
+Przejdź do zakładki **Dane do integracji**
 
 ![screen-imoje-dane-integracji](./images/screen-imoje-dane-integracji.png)
 
-Skopiuj i wklej do integracji w Skyier nastepujące dane: Identyfikator klienta, Identyfikator sklepu, Klucz sklepu.
+Skopiuj i wklej do integracji w Skyier nastepujące dane: 
+* Identyfikator klienta
+* Identyfikator sklepu
+* Klucz sklepu
 
 Ostatnim krokiem jest ustawienie adresu notyfikacji. Aby to zrobić kliknij Edytuj w polu Adres notyfikacji. 
 
