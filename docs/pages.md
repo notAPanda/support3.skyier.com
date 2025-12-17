@@ -78,8 +78,8 @@ Landing page można wykorzystać do swoich działań marketingowych, takich jak:
 
 <br>
 
-## Dodatkowe linki w górnej nawigacji
+## Baner
 
-Aby dodać linki należy przejść do **Ustawienia strony -> Funkcje -> Wyświetlaj dodatkowe linki w nawigacji**. A następnie dodać dodatkowe nazwy i linki. 
+Tutaj będzie info na temat baneru. 
 
 ![screen-linki](./images/screen-linki.png)
