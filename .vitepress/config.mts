@@ -14,8 +14,9 @@ export default defineConfig({
       }),
     ],
   },
+  lang: 'pl-PL',
   title: "Skyier Support",
-  description: "Skyier support page",
+  description: "Dokumentacja platformy do sprzedaży kursów Skyier",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
