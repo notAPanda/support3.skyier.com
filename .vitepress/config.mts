@@ -11,6 +11,8 @@ export default defineConfig({
         emptyText: "Nic nie znaleziono",
         heading: "Znaleziono: {{searchResult}} rezultatów",
         showDate: false,
+        excludeSelector: ['img', 'a.header-anchor', 'div.aside', '.sidebar'],
+        forceLanguage: 'pl',
       }),
     ],
   },
