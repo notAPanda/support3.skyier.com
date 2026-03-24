@@ -68,4 +68,7 @@ export default defineConfig({
       lang: "pl",
     },
   },
+  sitemap: {
+    hostname: 'https://support.skyier.com'
+  }
 });
