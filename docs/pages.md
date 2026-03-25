@@ -89,4 +89,4 @@ Rekomendowana rozmiary:
 
 Możesz również przgotować jedną grafikę, która będzie dobrze wyglądała zarówno na komputerze, jak i telefonie. Ale wówczas zalecamy się trzymać poniższych wytycznych. A dokładniej mówiąc tego, aby dodany tekst mieścił się w polu 1200 px. 
 
-![screen-linki](./images/baner-instrukcja.png)
+![screen-linki](./images/baner-instrukcja-2.png)
