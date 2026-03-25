@@ -11,11 +11,23 @@ export default defineConfig({
         emptyText: "Nic nie znaleziono",
         heading: "Znaleziono: {{searchResult}} rezultatów",
         showDate: false,
+        excludeSelector: ['img', 'a.header-anchor', 'div.aside', '.sidebar'],
+        forceLanguage: 'pl',
       }),
     ],
   },
+  lang: "pl-PL",
   title: "Skyier Support",
-  description: "Skyier support page",
+  description: "Dokumentacja platformy do sprzedaży kursów Skyier",
+  head: [
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "y3QX1xBblL6NxEKaehxZb0G4RZiQgywEhv_D0DfJmSI",
+      },
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -56,4 +68,7 @@ export default defineConfig({
       lang: "pl",
     },
   },
+  sitemap: {
+    hostname: 'https://support.skyier.com'
+  }
 });
