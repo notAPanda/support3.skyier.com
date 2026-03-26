@@ -84,7 +84,7 @@ Możesz przygotować 2 rozmiary banerów - jeden dedykowany na wersję webową (
 
 Rekomendowana rozmiary:
 
-- wersja webowa: 2500 px x 700 px
+- wersja webowa: 2500 px x 600 px
 - wersja mobilna: 380 px x 380 px. Najlepiej dwukrotność tych rozmiarów, aby nie mieć ewentualnych problemów z rozpikselowaniem się obrazka. Czyli 760 px x 760 px. 
 
 Możesz również przgotować jedną grafikę, która będzie dobrze wyglądała zarówno na komputerze, jak i telefonie. Ale wówczas zalecamy się trzymać poniższych wytycznych. A dokładniej mówiąc tego, aby dodany tekst mieścił się w polu 1200 px. 
