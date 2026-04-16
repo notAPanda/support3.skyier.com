@@ -37,7 +37,7 @@ Co w sytuacji, jeśli chcesz klientom udostępnić nową wersję pliku? Wtedy wy
 
 4. Stwórz **Stronę sprzedażową**, z informacjami na temat e-booka i z przyciskiem do zakupu. 
 
-[screen-wiadomosc-konsultacja-przed](./images/screen-sales-pages.png)
+[screen-strona-sprzedazowa](./images/screen-sales-pages.png)
 
 <br/>
 
@@ -49,7 +49,7 @@ Osoba po dokonaniu zakupu e-booka:
 
 2. Od razu ma możliwość pobrania e-booka ze swojej platformy. 
 
-[screen-wiadomosc-konsultacja-przed](./images/screen-ebook-platform.png)
+[screen-ebook-platforma](./images/screen-ebook-platform.png)
 
 Ten produkt dostępny jest zawsze w platformie użytkownika, po zalogowaniu. 
 
