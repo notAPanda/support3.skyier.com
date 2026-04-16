@@ -11,25 +11,31 @@ Aby dodać konsultację wybierz w górnym menu zakładkę **PRODUKTY**.
 
 A następnie wpisz **Tytuł**, zaznaczyć **Konsultacja online** i kliknij **Dodaj produkt**.
 
-![screen-konsultacja-ebook](./images/screen-konsultacja-ebook.jpg)
+![screen-konsultacja-ebook](./images/screen-konsultacja.jpg)
 
-Podaj cenę za konsultację.
+1. Podaj cenę za konsultację.
 
 Więcej na temat cen, znajdziesz [tutaj](https://support.skyier.com/sales).
 
-Przygotowuj **Wiadomość po zakupie**. 
+2. Przygotowuj **Wiadomość po zakupie**. 
 
-Jest to wiadomość, jaką otrzyma użytkownik na maila po dokonaniu zakupu. 
-
-Jeśli posiadasz swój kalendarz online do umawiania spotkań to zamieść do niego link (Google, Calendly, itp.). Aby użytkownik wybrał dogodny dla siebie termin oraz godzinę. Jeśli jednak nie posiadasz kalendarza to możesz w treści wiadomości napisać krótką instrukcję. 
+Jest to wiadomość, jaką użytkownik otrzyma na maila po dokonaniu zakupu. 
 
 ![screen-konsultacja-przed](./images/screen-konsultacja-przed.png)
 
+Jeśli posiadasz swój kalendarz online do umawiania spotkań to w sekcji Przycisk zamieść do niego link (Google, Calendly, itp.). Aby użytkownik wybrał dogodny dla siebie termin oraz godzinę.
+
+![screen-przycisk-do-kalendarza](./images/screen-calendar-button.png)
+
+Jeśli jednak nie posiadasz kalendarza to możesz w treści wiadomości napisać krótką instrukcję - jak umówić się na spotkanie.
+
 Kliknij **Zapisz i podejrzyj**. Sprawdź, czy wszystko wygląda poprawnie. 
 
-![screen-konsultacja-po](./images/screen-konsultacja-po.png)
+3. Stwórz **Stronę sprzedażową**, z informacjami na temat konsultacji i z przyciskiem do zakupu. 
 
-Stwórz **Stronę sprzedażową**, z informacjami na temat konsultacji i z przyciskiem do zakupu. 
+4. **Opublikuj produkt**. Wejdź na stronę Podukty i kliknij szary przełącznik. Kolor zmieni się na fioletowy.
+
+![screen-publikacja](./images/screen-public.png)
 
 <br/>
 

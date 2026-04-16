@@ -15,7 +15,7 @@ A następnie wpisz **Tytuł**, zaznacz opcję **Plik** i kliknij **Dodaj produkt
 
 A następnie:
 
-1. **Dodaj cenę za produkt.**
+1. **Dodaj cenę za e-book.**
 
 Więcej na temat cen, znajdziesz [tutaj](https://support.skyier.com/sales).
 
@@ -38,6 +38,10 @@ Co w sytuacji, jeśli chcesz klientom udostępnić nową wersję pliku? Wtedy wy
 4. Stwórz **Stronę sprzedażową**, z informacjami na temat e-booka i z przyciskiem do zakupu. 
 
 ![screen-strona-sprzedazowa](./images/screen-sales-pages.png)
+
+5. **Opublikuj produkt**. Wejdź na stronę Podukty i kliknij szary przełącznik. Kolor zmieni się na fioletowy.
+
+![screen-publikacja](./images/screen-public.png)
 
 <br/>
 
