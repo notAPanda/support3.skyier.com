@@ -5,32 +5,55 @@ date: 2022-10-01
 
 # E-booki
 
-## Sprzedaż e-booków
+## Sprzedaż plików
 
 Aby dodać e-book do sprzedaży wybierz w górnym menu zakładkę **PRODUKTY**.
 
-A następnie wpisz **Tytuł**, zaznaczyć **Konsultacja online** i kliknij **Dodaj produkt**.
+A następnie wpisz **Tytuł**, zaznacz opcję **Plik** i kliknij **Dodaj produkt**.
 
-![screen-konsultacja-ebook](./images/screen-konsultacja-ebook.jpg)
+![screen-konsultacja-ebook](./images/screen-add-file.png)
 
-**Podaj cenę za produkt.**
+A następnie:
+
+1. **Dodaj cenę za produkt.**
 
 Więcej na temat cen, znajdziesz [tutaj](https://support.skyier.com/sales).
 
-Przygotowuj **Wiadomość po zakupie**. 
+2. Przygotowuj **Wiadomość po zakupie**. 
 
-Jest to wiadomość, jaką otrzyma użytkownik na maila po dokonaniu zakupu. 
-Może to być po prostu podziękowanie za zakup oraz inne dodatkowe informacje, jakie chciałbyś dodać.
+Jest to wiadomość, jaką otrzyma użytkownik po dokonaniu zakupu. 
+Może to być po prostu podziękowanie za zakup lub wiadomość wzbogacona o dodatkowe informacje, jakie chciałbyś przekazać.
 
-![screen-wiadomosc-konsultacja-po](./images/screen-wiadomosc-konsultacja-po.jpg)
+![screen-wiadomosc-konsultacja-po](./images/screen-mail-after-purchase.png)
 
-**Dołącz plik, korzystają z opcji Dodaj plik.**
+3. **Dołącz plik:**
+
+- korzystając z opcji Dodaj plik
+- lub podając w polu **Przycisk** link do jego pobrania wraz z CTA, czyli wezwaniem do działania.
 
 Kliknij **Zapisz i podejrzyj**. Sprawdź, czy wszystko wygląda poprawnie. 
 
-![screen-wiadomosc-konsultacja-przed](./images/screen-wiadomosc-konsultacja-przed.jpg)
+Co w sytuacji, jeśli chcesz klientom udostępnić nową wersję pliku? Wtedy wystarczy, że usuniesz stary plik i dodasz nowy. Użytkownik po zalogowaniu do swojej platformy będzie miał możliwość pobrania pliku w nowej wersji. 
 
-Stwórz **Stronę sprzedażową**, z informacjami na temat e-booka i z przyciskiem do zakupu. 
+4. Stwórz **Stronę sprzedażową**, z informacjami na temat e-booka i z przyciskiem do zakupu. 
+
+[screen-wiadomosc-konsultacja-przed](./images/screen-sales-pages.png)
+
+<br/>
+
+## Jak to wygląda od strony użytkownika? 
+
+Osoba po dokonaniu zakupu e-booka:
+
+1. Dostaje na maila wiadomość, którą przygotowałeś w kroku 2.
+
+2. Od razu ma możliwość pobrania e-booka ze swojej platformy. 
+
+[screen-wiadomosc-konsultacja-przed](./images/screen-ebook-platform.png)
+
+Ten produkt dostępny jest zawsze w platformie użytkownika, po zalogowaniu. 
+
+W momencie, kiedy udostępnisz użytkownikowi nową wersję pliku. Użytkownik będzie mógł ją pobrać właśnie w tym miejscu. 
 
 <br/>
 
@@ -51,7 +74,7 @@ Podstawowe znaczniki:
 * [Zdanie, które chcemy podlinkować](https://www.google.com). Aby wstawić link do zdania należy w nawiasach [] wstawić zdanie, które chcemy podlinkować, a obok w nawiasach () wstawić link do strony, do której chcemy odesłać użytkownika.
 
 Wiadomość napisana w edytorze.
-![screen-wiadomosc-konsultacja-przed](./images/screen-wiadomosc-konsultacja-przed.jpg)
+![screen-wiadomosc-konsultacja-przed](./images/screen-mail-after-purchase.png)
 
 Wiadomość widoczna dla użytkownika.
-![screen-wiadomosc-konsultacja-po](./images/screen-wiadomosc-konsultacja-po.jpg)
+![screen-wiadomosc-konsultacja-po](./images/screen-mail-preview.png)
