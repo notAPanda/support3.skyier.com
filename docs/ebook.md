@@ -43,7 +43,7 @@ Co w sytuacji, jeśli chcesz klientom udostępnić nową wersję pliku? Wtedy wy
 
 ## Jak to wygląda od strony użytkownika? 
 
-Osoba po dokonaniu zakupu e-booka:
+Osoba po dokonaniu zakupu e-book:
 
 1. Dostaje na maila wiadomość, którą przygotowałeś w kroku 2.
 
