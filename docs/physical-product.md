@@ -37,7 +37,7 @@ A następnie:
 
 2. Kliknij w datę transakcji -> otworzy Ci się nowa strona ze wszystkimi informacjami na temat tego zakupu. 
 
-3. Możesz ustawić status wysyłki. Wystarczy, że klikniesz w wybrany status: Gotowa do wysyłki, Wysłana, Dostarczona. 
+3. Możesz ustawić status wysyłki. Wystarczy, że klikniesz w wybrany status: Gotowa do wysyłki, Wysłana, Dostarczona. Abyś wiedział, na jakim etapie jest dana paczka.
 
 ![screen-ustawianie-statusu-wysylki](./images/screen-status-physical.png)
 
@@ -55,9 +55,32 @@ A następnie ustaw:
 
 1. Środowisko: produkcyjne
 
-2. Inpost ID:
+2. Inpost ID, czyli ID Organizacji
 
-3. Api Token:
+3. Api Token, czyli Api Shipx
 
 4. Geowidget Token
 
+**Gdzie znaleźć te dane?**
+
+Zaloguj się do swojego konta InPost, a następnie wejdź w Moje konto - API. 
+
+Znajdziesz tam 3 pola: ID Organizacji, Api Shipx i Geowidget, z których należy skopiować dane.
+
+![screen-ustawianie-statusu-wysylki](./images/screen-Inpost-integrations.png)
+
+**Jak mogę wykorzystać tą integrację?**
+
+Teraz masz możliwość automatycznego generowania etykiet wysyłkowych. Aby to zrobić:
+
+1. Wejdź na stronę Sprzedaż. Na liście transakcji znajdziesz listę zakupionych produktów fizycznych. Dodatkowo pojawi się przy nich zielony label PRODUKT FIZYCZNY.
+
+![screen-produkty-fizyczne](./images/screen-data-physical.png)
+
+2. Kliknij w datę transakcji -> otworzy Ci się nowa strona ze wszystkimi informacjami na temat tego zakupu. 
+
+3. A następnie w sekcji INPOST klikni Zamów przesyłkę.
+
+![screen-produkty-fizyczne](./images/screen-zamow-przesylke.png)
+
+4. W InPost w Moich przesyłkach znajdziesz utworzoną przesyłkę, do której możesz pobrać etykietę. 

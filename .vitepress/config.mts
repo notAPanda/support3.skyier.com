@@ -45,7 +45,7 @@ export default defineConfig({
           { text: "Live", link: "/docs/live" },
           { text: "Pakiety", link: "/docs/bundle" },
           { text: "Społeczność", link: "/docs/community" },
-          { text: "Produkty fizyczne", link: "/docs/physical-products" },
+          { text: "Produkty fizyczne", link: "/docs/physical-product" },
           { text: "Strony", link: "/docs/pages" },
           { text: "Sprzedaż", link: "/docs/sales" },
           { text: "Subskrypcja", link: "/docs/subscription" },
