@@ -63,7 +63,7 @@ A następnie ustaw:
 
 **Gdzie znaleźć te dane?**
 
-Zaloguj się do swojego konta InPost, a następnie wejdź w Moje konto - API. 
+Zaloguj się do swojego konta InPost, a następnie wejdź w Moje konto -> API. 
 
 Znajdziesz tam 3 pola: ID Organizacji, Api Shipx i Geowidget, z których należy skopiować dane.
 
@@ -79,7 +79,7 @@ Teraz masz możliwość automatycznego generowania etykiet wysyłkowych. Aby to 
 
 2. Kliknij w datę transakcji -> otworzy Ci się nowa strona ze wszystkimi informacjami na temat tego zakupu. 
 
-3. A następnie w sekcji INPOST klikni Zamów przesyłkę.
+3. A następnie w sekcji INPOST kliknij Zamów przesyłkę.
 
 ![screen-produkty-fizyczne](./images/screen-zamow-przesylke.png)
 

@@ -90,3 +90,68 @@ Rekomendowana rozmiary:
 Możesz również przgotować jedną grafikę, która będzie dobrze wyglądała zarówno na komputerze, jak i telefonie. Ale wówczas zalecamy się trzymać poniższych wytycznych. A dokładniej mówiąc tego, aby dodany tekst mieścił się w polu 1200 px. 
 
 ![screen-linki](./images/baner-instrukcja-2.png)
+
+<br>
+
+## HTML
+
+**Dodanie przesuwającego się paska z komunikatem** 
+
+Zobacz wideo.
+
+Skopiuj poniższy kod i wstaw go w Ustawienia strony -> HeadJavascript
+
+```html
+<style>
+  .ticker {
+    overflow: hidden;
+    white-space: nowrap;
+    background: #111;
+    color: #fff;
+    padding: 10px 0;
+  }
+
+  .ticker:hover .ticker__text {
+    animation-play-state: paused;
+  }
+
+  .ticker__text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 25s linear infinite;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+</style>
+```
+Skopiuj poniższy kod i wstaw go w sekcji HTML, na stronie, na której chcesz dodać ten pasek
+
+```html
+<div class="ticker bg-dark small text-white py-3">
+  <a href="/jakis-link" class="ticker__text fw-bold text-white">
+    ❤️ Lorem ipsum dolor sit amet ❤️ consectetur adipiscing elit ❤️
+  </a>
+</div>
+```
+
+**Dodanie dodatkowych kategorii do tagów** 
+
+Zobacz wideo.
+
+Skopiuj poniższy kod i wstaw go w Ustawienia strony -> Body Top Script
+
+```html
+<script>
+  var tagCategories = {
+    "Kategoria tagów 1": ['Tag 1', 'Tag 2'],
+    "Kategoria tagów 2": ['Tag 3', 'Tag 4'],
+  }
+</script>
+```
