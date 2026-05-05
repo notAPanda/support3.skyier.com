@@ -3,7 +3,7 @@ title: E-booki
 date: 2022-10-01
 ---
 
-# E-booki
+# E-book
 
 ## Sprzedaż plików
 

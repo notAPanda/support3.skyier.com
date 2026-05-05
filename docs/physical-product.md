@@ -51,3 +51,13 @@ Aby to zrobić wejdź w Integracje, a następnie z listy wybierz opcję InPost.
 
 ![screen-ustawianie-statusu-wysylki](./images/screen-inpost.png)
 
+A następnie ustaw:
+
+1. Środowisko: produkcyjne
+
+2. Inpost ID:
+
+3. Api Token:
+
+4. Geowidget Token
+
