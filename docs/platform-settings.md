@@ -14,23 +14,60 @@ date: 2022-10-01
 
 <br/>
 
-### Jak przekierować domenę?
+## Jak przekierować domenę?
 
-1. Zaloguj się do swojego panelu zarządzania domeną (ovh, home, the camels, itp.).
+Wybierz poniżej instrukcję, która pasuje do Twoich potrzeb. Pamiętaj, że zmiany w ustawieniach domen potrzebują czasu na rozprzestrzenienie się w sieci (tzw. propagacja), co zazwyczaj trwa od kilku do 24 godzin.
 
-2. Znajdź ustawienia rekordów DNS.
+---
 
-3. Dodaj rekord CNAME dla Twojej domeny. W zależności od panelu administracyjnego, powinien on wyglądać mniej więcej tak:
+### Opcja A: Podłączam subdomenę (np. kurs.twojadomena.pl)
+*Wybierz tę opcję, jeśli masz już działającą stronę (np. wizytówkę na WordPress) i chcesz tylko dodać do niej platformę kursową pod nowym adresem.*
 
-- Domain: your.domain.com	
-- Type: CNAME
-- Target: secure.skyier.com
+1. **Zaloguj się** do panelu, w którym kupiłeś domenę (np. OVH, Home.pl, d極host itp.).
+2. Znajdź sekcję **Zarządzanie DNS / Rekordy DNS**.
+3. Dodaj nowy rekord typu **CNAME**:
+   - **Host / Nazwa:** wpisz tylko początek adresu (np. `kursy`).
+   - **Wartość / Cel:** `secure.skyier.com`
+4. **Zapisz zmiany.**
+5. Przejdź do **Ustawień strony** w panelu Skyier i wpisz swój pełny adres w polu **Domena** (np. `kurs.twojadomena.pl`).
 
-4. Upewnij się, że dodałeś poprawną domenę do Ustawień strony w Skyier.
+---
 
-5. Zaczekaj na weryfikację domeny i instalację darmowego certyfikatu SSL. Certyfikaty SSL instalują się raz na dobę, o 04.00 w nocy.
+### Opcja B: Podłączam domenę główną (np. twojadomena.pl)
+*Jest to **polecana metoda** dla nowych domen, które nie były wcześniej używane. Oraz dla osób, które chcą, aby ich cała platforma/strona główna działała na Skyier.*
 
-6. Jeśli będziesz miał jakieś problemy, skontaktuj się z nami. Bardzo chętnie pomożemy.
+#### 1. Połączenie z Cloudflare (przekierowanie rekordów NS)
+Zamiast konfigurować domenę bezpośrednio u sprzedawcy, podłączymy ją do bezpłatnej usługi Cloudflare, która zapewni Ci stabilność i bezpieczeństwo.
+
+* Załóż konto na [Cloudflare.com](https://cloudflare.com) i kliknij "Add a site", wpisując swoją domenę.
+* **Wybór planu:** Gdy zobaczysz cennik, przewiń na sam dół strony – tam znajdziesz mały przycisk **Free ($0)**. Wybierz go.
+* **Zmiana rekordów NS:** Cloudflare wyświetli Ci dwie nazwy serwerów (np. `ada.ns.cloudflare.com`). 
+* **Ważne:** Musisz teraz zalogować się do panelu, w którym kupiłeś domenę, i w sekcji "Serwery DNS" lub "Rekordy NS" zamienić dotychczasowe adresy na te od Cloudflare. To połączy Twoją domenę z nowym panelem zarządzania.
+
+#### 2. Ustawienie rekordów DNS w Cloudflare
+W zakładce **DNS -> Records** musisz utworzyć dwa rekordy, aby Cloudflare mogło poprawnie kierować ruchem:
+
+1. **Rekord WWW:**
+   - **Typ:** CNAME
+   - **Name (Nazwa):** `www`
+   - **Target (Cel):** `secure.skyier.com`
+   - **Proxy status:** Pomarańczowa chmurka (Proxied).
+2. **Rekord Główny (Root):**
+   - **Typ:** CNAME
+   - **Name (Nazwa):** `@` (oznacza Twoją domenę bez www)
+   - **Target (Cel):** `secure.skyier.com`
+   - **Proxy status:** Pomarańczowa chmurka (Proxied).
+
+#### 3. Ustawienie bezpiecznego połączenia (SSL)
+* W Cloudflare wejdź w zakładkę **SSL/TLS -> Overview**.
+* Wybierz tryb szyfrowania **Full**. Dzięki temu Twoja strona będzie miała "zieloną kłódkę" i bezpieczne połączenie.
+
+#### 4. Automatyczne przekierowanie na WWW
+*Chcemy, aby po wpisaniu `twojadomena.pl` użytkownik zawsze trafiał na `www.twojadomena.pl`.*
+* Przejdź do zakładki **Rules -> Redirect Rules**.
+* Kliknij **Create rule** (nazwij ją np. "Root to WWW").
+* Wybierz opcję przekierowania domeny głównej na adres: `https://www.twojadomena.pl`.
+
 
 **Linki do instrukcji wideo:**
 

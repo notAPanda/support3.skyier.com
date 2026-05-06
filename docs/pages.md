@@ -95,7 +95,9 @@ Możesz również przgotować jedną grafikę, która będzie dobrze wyglądała
 
 ## HTML
 
-**Dodanie przesuwającego się paska z komunikatem** 
+**1. Dodanie przesuwającego się paska z komunikatem** 
+
+![screen-pasek](./images/screen-pasek.png)
 
 Zobacz wideo.
 
@@ -141,7 +143,7 @@ Skopiuj poniższy kod i wstaw go w sekcji HTML, na stronie, na której chcesz do
 </div>
 ```
 
-**Dodanie dodatkowych kategorii do tagów** 
+**2. Dodanie dodatkowych kategorii do tagów** 
 
 Zobacz wideo.
 
