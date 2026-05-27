@@ -16,11 +16,17 @@ Aby dodać stronę typu landing page należy przejść do **zakładki Strony -> 
 
 <br/>
 
-## Strona sprzedażowa produktu (kursu online, pakietu, konsultacji, live)
+## Strona sprzedażowa produktu (kursu online, pakietu, konsultacji, live, pliku)
 
 Aby stworzyć stronę sprzedażową kursu należy wybrać **Produkty -> Strona sprzedażowa wybranego produktu.** 
 
 ![screen-strona-sprzedazowa-edycja](./images/screen-strona-sprzedazowa-edycja.jpg)
+
+<br/>
+
+## Strona zakupowa - checkout (kursu online, pakietu, konsultacji, live, pliku)
+
+Możesz na stronie zakupowej dodać dodatkowe informacje, które będą wyświetlać się obok formularza, po lewej stronie. 
 
 <br/>
 
