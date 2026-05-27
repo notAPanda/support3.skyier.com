@@ -24,7 +24,13 @@ Aby stworzyć stronę sprzedażową kursu należy wybrać **Produkty -> Strona s
 
 <br/>
 
-## Strona zakupowa - checkout (kursu online, pakietu, konsultacji, live, pliku)
+## Strona zakupowa - checkout płatności jednorazowych (kursu online, pakietu, konsultacji, live, pliku)
+
+Możesz na stronie zakupowej dodać dodatkowe informacje, które będą wyświetlać się obok formularza, po lewej stronie. 
+
+<br/>
+
+## Strona zakupowa - subskrypcja
 
 Możesz na stronie zakupowej dodać dodatkowe informacje, które będą wyświetlać się obok formularza, po lewej stronie. 
 
