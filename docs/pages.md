@@ -28,11 +28,27 @@ Aby stworzyć stronę sprzedażową kursu należy wybrać **Produkty -> Strona s
 
 Możesz na stronie zakupowej dodać dodatkowe informacje, które będą wyświetlać się obok formularza, po lewej stronie. 
 
+![screen-strona-zakupowa](./images/screen-add-info-checkout.png)
+
+Aby to zrobić należy wejść w edycję wybranego produktu i przejść do pola **Informacje dodatkowe na stronie checkout**.
+
+![screen-strona-zakupowa](./images/screen-add-info-checkout-dashboard.png)
+
+Pamiętaj, aby w tym wypadku użyć składni Markdown. Więcej na temat cen, znajdziesz [tutaj](https://support.skyier.com/sales).
+
 <br/>
 
 ## Strona zakupowa - subskrypcja
 
 Możesz na stronie zakupowej dodać dodatkowe informacje, które będą wyświetlać się obok formularza, po lewej stronie. 
+
+![screen-strona-zakupowa-subskrypcji](./images/screen-add-info-sub-checkout.jpg)
+
+Aby to zrobić należy wejść w Ustawienia strony -> Model subsrypcyjny -> kliknąć przycik Opcje, a następnie wybrać na liście swój plan. W edycji tego planu, na dole znajdziesz sekcję: INFORMACJE DODATKOWE -> włącz opcję: Informacje dodatkowe na stronie /subscribe/checkout.
+
+![screen-strona-zakupowa-subskrypcji](./images/screen-add-info-sub-checkout-dasboard.png)
+
+Pamiętaj, aby w tym wypadku użyć składni Markdown. Więcej na temat cen, znajdziesz [tutaj](https://support.skyier.com/sales).
 
 <br/>
 
@@ -169,3 +185,25 @@ Skopiuj poniższy kod i wstaw go w Ustawienia strony -> Body Top Script
   }
 </script>
 ```
+
+<br/>
+
+## Jak działa markdown? 
+
+Podstawowe znaczniki:
+
+* nagłówek H1 - wstaw jeden "hasztag" przed wyrazem, np. # Dzień dobry
+
+* nagłówek H2 - wstaw dwa "hasztagi" przed wyrazem, np. ## Dzień dobry
+
+* nagłówek H3 - wstaw trzy "hasztagi" przed wyrazem, np. ### Dzień dobry
+
+* **wyboldowanie** - wstaw przed i za wyrazem/zdaniem dwie gwiazdki
+
+* *kursywa* - wstaw przed i za wyrazem/zdaniem jedną gwiazdkę
+
+* - bullet point: "check"
+
+* <hr> - linia przedzielająca
+
+* [Zdanie, które chcemy podlinkować](https://www.google.com). Aby wstawić link do zdania należy w nawiasach [] wstawić zdanie, które chcemy podlinkować, a obok w nawiasach () wstawić link do strony, do której chcemy odesłać użytkownika.
