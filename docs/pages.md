@@ -190,7 +190,7 @@ Skopiuj poniższy kod i wstaw go w Ustawienia strony -> Body Top Script
 
 ## Jak działa markdown? 
 
-**Nagłówki**
+#### Nagłówki
 
 ```md
 # Nagłówek 1
@@ -199,15 +199,7 @@ Skopiuj poniższy kod i wstaw go w Ustawienia strony -> Body Top Script
 #### Nagłówek 4
 ```
 
-Efekt:
-
-# Nagłówek 1
-## Nagłówek 2
-### Nagłówek 3
-#### Nagłówek 4
-
-
-** Formatowanie tekstu**
+#### Formatowanie tekstu
 
 ```md
 **Pogrubienie**
@@ -219,30 +211,16 @@ Efekt:
 ~~Przekreślenie~~
 ```
 
-Efekt:
+##### Listy
 
-**Pogrubienie**
-
-*Kursywa*
-
-***Pogrubienie i kursywa***
-
-~~Przekreślenie~~
-
-
-**Listy**
-
-## Lista punktowana "check"
+**Lista punktowana "check"**
 
 ```md
 - Element 1
 - Element 2
-  - Podpunkt
-  - Podpunkt
 ```
 
-
-## Lista numerowana
+**Lista numerowana**
 
 ```md
 1. Pierwszy punkt
@@ -250,31 +228,19 @@ Efekt:
 3. Trzeci punkt
 ```
 
-Efekt:
-
-1. Pierwszy punkt
-2. Drugi punkt
-3. Trzeci punkt
-
-
-**Linki**
+#### Linki
 
 ```md
-[OpenAI](https://openai.com)
+[Skyier](https://skyier.com)
 ```
 
-Efekt:
-
-[OpenAI](https://openai.com)
-
-
-**Obrazy**
+#### Obrazy
 
 ```md
 ![Opis obrazka](obrazek.jpg)
 ```
 
-**Cytaty**
+#### Cytaty
 
 ```md
 > To jest cytat.
@@ -282,17 +248,8 @@ Efekt:
 > Może mieć wiele linii.
 ```
 
-Efekt:
-
-> To jest cytat.
->
-> Może mieć wiele linii.
-
-**Linia pozioma
+#### Linia pozioma
 
 ```md
 ---
 ```
-
-Efekt
----
