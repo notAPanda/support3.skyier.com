@@ -46,7 +46,7 @@ Możesz na stronie zakupowej dodać dodatkowe informacje, które będą wyświet
 
 Aby to zrobić należy wejść w Ustawienia strony -> Model subsrypcyjny -> kliknąć przycik Opcje, a następnie wybrać na liście swój plan. W edycji tego planu, na dole znajdziesz sekcję: INFORMACJE DODATKOWE -> włącz opcję: Informacje dodatkowe na stronie /subscribe/checkout.
 
-![screen-strona-zakupowa-subskrypcji](./images/screen-add-info-sub-checkout-dasboard.png)
+![screen-strona-zakupowa-subskrypcji](./images/screen-add-info-sub-checkout-dashboard.png)
 
 Pamiętaj, aby w tym wypadku użyć składni Markdown. Więcej na temat cen, znajdziesz [tutaj](https://support.skyier.com/sales).
 
