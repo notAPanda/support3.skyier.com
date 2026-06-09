@@ -34,7 +34,7 @@ Aby to zrobić należy wejść w edycję wybranego produktu i przejść do pola 
 
 ![screen-strona-zakupowa](./images/screen-add-info-checkout-dashboard.png)
 
-Pamiętaj, aby w tym wypadku użyć składni Markdown. Więcej na temat cen, znajdziesz [tutaj](https://support.skyier.com/sales).
+Pamiętaj, aby w tym wypadku użyć składni Markdown. Więcej na temat cen, znajdziesz [tutaj](https://support.skyier.com/docs/pages.html#jak-dzia%C5%82a-markdown).
 
 <br/>
 
@@ -44,11 +44,11 @@ Możesz na stronie zakupowej dodać dodatkowe informacje, które będą wyświet
 
 ![screen-strona-zakupowa-subskrypcji](./images/screen-add-info-sub-checkout.jpg)
 
-Aby to zrobić należy wejść w Ustawienia strony -> Model subsrypcyjny -> kliknąć przycik Opcje, a następnie wybrać na liście swój plan. W edycji tego planu, na dole znajdziesz sekcję: INFORMACJE DODATKOWE -> włącz opcję: Informacje dodatkowe na stronie /subscribe/checkout.
+Aby to zrobić należy wejść w Ustawienia strony -> Model subsrypcyjny -> kliknąć przycik Opcje, a następnie wybrać na liście swój plan. W edycji tego planu, na dole znajdziesz sekcję: **INFORMACJE DODATKOWE -> włącz opcję: Informacje dodatkowe na stronie /subscribe/checkout.**
 
 ![screen-strona-zakupowa-subskrypcji](./images/screen-add-info-sub-checkout-dashboard.png)
 
-Pamiętaj, aby w tym wypadku użyć składni Markdown. Więcej na temat cen, znajdziesz [tutaj](https://support.skyier.com/sales).
+Pamiętaj, aby w tym wypadku użyć składni Markdown. Więcej na temat cen, znajdziesz [tutaj](https://support.skyier.com/docs/pages.html#jak-dzia%C5%82a-markdown).
 
 <br/>
 
@@ -190,20 +190,118 @@ Skopiuj poniższy kod i wstaw go w Ustawienia strony -> Body Top Script
 
 ## Jak działa markdown? 
 
-Podstawowe znaczniki:
+# Nagłówki
 
-* nagłówek H1 - wstaw jeden "hasztag" przed wyrazem, np. # Dzień dobry
+```md
+# Nagłówek 1
+## Nagłówek 2
+### Nagłówek 3
+#### Nagłówek 4
+```
 
-* nagłówek H2 - wstaw dwa "hasztagi" przed wyrazem, np. ## Dzień dobry
+Efekt:
 
-* nagłówek H3 - wstaw trzy "hasztagi" przed wyrazem, np. ### Dzień dobry
+# Nagłówek 1
+## Nagłówek 2
+### Nagłówek 3
+#### Nagłówek 4
 
-* **wyboldowanie** - wstaw przed i za wyrazem/zdaniem dwie gwiazdki
+---
 
-* *kursywa* - wstaw przed i za wyrazem/zdaniem jedną gwiazdkę
+# Formatowanie tekstu
 
-* - bullet point: "check"
+```md
+**Pogrubienie**
 
-* <hr> - linia przedzielająca
+*Kursywa*
 
-* [Zdanie, które chcemy podlinkować](https://www.google.com). Aby wstawić link do zdania należy w nawiasach [] wstawić zdanie, które chcemy podlinkować, a obok w nawiasach () wstawić link do strony, do której chcemy odesłać użytkownika.
+***Pogrubienie i kursywa***
+
+~~Przekreślenie~~
+```
+
+Efekt:
+
+**Pogrubienie**
+
+*Kursywa*
+
+***Pogrubienie i kursywa***
+
+~~Przekreślenie~~
+
+---
+
+# Listy
+
+## Lista punktowana
+
+```md
+- Element 1
+- Element 2
+  - Podpunkt
+  - Podpunkt
+```
+
+Efekt:
+
+- Element 1
+- Element 2
+  - Podpunkt
+  - Podpunkt
+
+## Lista numerowana
+
+```md
+1. Pierwszy punkt
+2. Drugi punkt
+3. Trzeci punkt
+```
+
+Efekt:
+
+1. Pierwszy punkt
+2. Drugi punkt
+3. Trzeci punkt
+
+---
+
+# Linki
+
+```md
+[OpenAI](https://openai.com)
+```
+
+Efekt:
+
+[OpenAI](https://openai.com)
+
+---
+
+# Obrazy
+
+```md
+![Opis obrazka](obrazek.jpg)
+```
+
+---
+
+# Cytaty
+
+```md
+> To jest cytat.
+>
+> Może mieć wiele linii.
+```
+
+Efekt:
+
+> To jest cytat.
+>
+> Może mieć wiele linii.
+
+# Linia pozioma
+---
+
+Efekt
+---
