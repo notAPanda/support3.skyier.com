@@ -41,23 +41,69 @@ Kliknij **Zapisz i podejrzyj**. Sprawdź, czy wszystko wygląda poprawnie.
 
 ## Jak działa markdown? 
 
-Podstawowe znaczniki:
+#### Nagłówki
 
-* nagłówek H1 - wstaw jeden "hasztag" przed wyrazem, np. # Dzień dobry
+```md
+# Nagłówek 1
+## Nagłówek 2
+### Nagłówek 3
+#### Nagłówek 4
+```
 
-* nagłówek H2 - wstaw dwa "hasztagi" przed wyrazem, np. ## Dzień dobry
+#### Formatowanie tekstu
 
-* nagłówek H3 - wstaw trzy "hasztagi" przed wyrazem, np. ### Dzień dobry
+```md
+**Pogrubienie**
 
-* **wyboldowanie** - wstaw przed i za wyrazem/zdaniem dwie gwiazdki **
+*Kursywa*
 
-* *kursywa* - wstaw przed i za wyrazem/zdaniem jedną gwiazdkę *
+***Pogrubienie i kursywa***
 
-* - bullet point: "check"
+~~Przekreślenie~~
+```
 
-* <hr> - linia przedzielająca
+#### Listy
 
-* [Zdanie, które chcemy podlinkować](https://www.google.com). Aby wstawić link do zdania należy w nawiasach [] wstawić zdanie, które chcemy podlinkować, a obok w nawiasach () wstawić link do strony, do której chcemy odesłać użytkownika.
+**Lista punktowana "check"**
+
+```md
+- Element 1
+- Element 2
+```
+
+**Lista numerowana**
+
+```md
+1. Pierwszy punkt
+2. Drugi punkt
+3. Trzeci punkt
+```
+
+#### Linki
+
+```md
+[Skyier](https://skyier.com)
+```
+
+#### Obrazy
+
+```md
+![Opis obrazka](obrazek.jpg)
+```
+
+#### Cytaty
+
+```md
+> To jest cytat.
+>
+> Może mieć wiele linii.
+```
+
+#### Linia pozioma
+
+```md
+---
+```
 
 Wiadomość napisana w edytorze:
 

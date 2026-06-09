@@ -211,7 +211,7 @@ Skopiuj poniższy kod i wstaw go w Ustawienia strony -> Body Top Script
 ~~Przekreślenie~~
 ```
 
-##### Listy
+#### Listy
 
 **Lista punktowana "check"**
 
