@@ -64,6 +64,9 @@ hero:
     - theme: brand
       text: Cache
       link: /docs/cache
+    - theme: brand
+      text: Praca z AI
+      link: /docs/working-with-ai
 
 features:
   - title: Napisz do nas
