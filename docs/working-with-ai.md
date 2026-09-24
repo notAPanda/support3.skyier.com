@@ -18,11 +18,10 @@ Prompt do tworzenia strony sprzedażowej lub Landing page:
 
 ```html
 Jesteś wysokiej klasy developerem ui/ux.
-Stwórz stronę sprzedażową (HTML, CSS, Javascript).
-
-Kod, który stworzysz będzie umieszczony wewnątrz gotowej strony, która:
-- ma już górne menu oraz stopkę,
+Stwórz stronę sprzedażową (HTML, CSS). Staraj się dać mi wydzielone style i html ponieważ będą one wklejone do gotowej strony, która zawiera:
+- górne menu oraz stopkę,
 - jest zbudowana na frameworku css Bootstrap 5
+- strona korzysta z ikon Font Awesome 5
 
 Kolorystyka strony: (tutaj Twój opis kolorystyki)
 
